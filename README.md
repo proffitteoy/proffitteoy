@@ -18,22 +18,6 @@
 
 ---
 
-## System Snapshot
-
-```text
-+--------------------------------------------------------------+
-| proffitteoy                                                  |
-+--------------------------------------------------------------+
-| Role       : Applied Mathematics Student                     |
-| Core Stack : Python / TypeScript / PostgreSQL / Next.js      |
-| Research   : TDA / Mathematical Modeling / Data Analysis     |
-| Systems    : RAG / Agent Workflow / Research Infrastructure  |
-| Direction  : Mathematics -> Modeling -> Agents -> Open Source|
-+--------------------------------------------------------------+
-```
-
----
-
 ## Tech Radar
 
 <div align="center">
@@ -104,59 +88,17 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=proffitteoy&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=proffitteoy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=proffitteoy&theme=tokyonight" alt="GitHub profile details" />
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=proffitteoy&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub streak stats" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=proffitteoy&theme=tokyonight" alt="Repositories per language" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=proffitteoy&theme=tokyonight" alt="Most committed languages" />
 
 <br />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=proffitteoy&theme=tokyo-night&hide_border=true&area=true" alt="GitHub activity graph" />
-
-<br />
-
-<img src="https://github-profile-trophy.vercel.app/?username=proffitteoy&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="GitHub profile trophies" />
-
-</div>
-
----
-
-## Operating Model
-
-```mermaid
-flowchart LR
-    A[Math Foundation] --> B[Structural Modeling]
-    B --> C[TDA / Statistical Features]
-    C --> D[Retrieval and State Memory]
-    D --> E[Agent Workflow]
-    E --> F[Research Infrastructure]
-    F --> G[Open Source Output]
-```
-
----
-
-## Current Architecture Bias
-
-```text
-I prefer systems that have:
-
-01. explicit state
-02. reproducible data flow
-03. observable intermediate artifacts
-04. clear storage boundaries
-05. agent orchestration instead of one-shot prompting
-06. math / data / software connected in one pipeline
-```
-
----
-
-## Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake animation" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=proffitteoy&theme=tokyonight" alt="GitHub stats summary" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=proffitteoy&theme=tokyonight&utcOffset=8" alt="Productive time summary" />
 
 </div>
 
