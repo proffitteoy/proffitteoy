@@ -97,8 +97,8 @@
 
 <br />
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=proffitteoy&theme=tokyonight" alt="GitHub stats summary" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=proffitteoy&theme=tokyonight&utcOffset=8" alt="Productive time summary" />
+<img width="49%" src="./assets/generated/github-stats-summary.svg" alt="GitHub stats summary" />
+<img width="49%" src="./assets/generated/productive-time-summary.svg" alt="Productive time summary" />
 
 </div>
 
