@@ -1,0 +1,22 @@
+<svg width="880" height="94" viewBox="0 0 880 94" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tech stack icons</title>
+  <desc id="desc">A local snapshot of Python, TypeScript, JavaScript, React, Next.js, Tailwind, PostgreSQL, SQLite, Prisma, Docker, Git, GitHub, Linux, and VS Code.</desc>
+  <rect x="1" y="1" width="878" height="92" rx="12" fill="#0F172A"/>
+  <rect x="1" y="1" width="878" height="92" rx="12" stroke="#334155"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="13" text-anchor="middle">
+    <g transform="translate(35 22)"><rect width="48" height="48" rx="10" fill="#1D4ED8"/><text x="24" y="30" fill="#DBEAFE">Py</text></g>
+    <g transform="translate(95 22)"><rect width="48" height="48" rx="10" fill="#2563EB"/><text x="24" y="30" fill="#DBEAFE">TS</text></g>
+    <g transform="translate(155 22)"><rect width="48" height="48" rx="10" fill="#EAB308"/><text x="24" y="30" fill="#111827">JS</text></g>
+    <g transform="translate(215 22)"><rect width="48" height="48" rx="10" fill="#0E7490"/><text x="24" y="30" fill="#CFFAFE">R</text></g>
+    <g transform="translate(275 22)"><rect width="48" height="48" rx="10" fill="#111827" stroke="#475569"/><text x="24" y="30" fill="#F8FAFC">N</text></g>
+    <g transform="translate(335 22)"><rect width="48" height="48" rx="10" fill="#0891B2"/><text x="24" y="30" fill="#ECFEFF">Tw</text></g>
+    <g transform="translate(395 22)"><rect width="48" height="48" rx="10" fill="#075985"/><text x="24" y="30" fill="#E0F2FE">Pg</text></g>
+    <g transform="translate(455 22)"><rect width="48" height="48" rx="10" fill="#475569"/><text x="24" y="30" fill="#F8FAFC">SQL</text></g>
+    <g transform="translate(515 22)"><rect width="48" height="48" rx="10" fill="#4C1D95"/><text x="24" y="30" fill="#EDE9FE">Pr</text></g>
+    <g transform="translate(575 22)"><rect width="48" height="48" rx="10" fill="#0EA5E9"/><text x="24" y="30" fill="#F0F9FF">Dc</text></g>
+    <g transform="translate(635 22)"><rect width="48" height="48" rx="10" fill="#EA580C"/><text x="24" y="30" fill="#FFF7ED">Git</text></g>
+    <g transform="translate(695 22)"><rect width="48" height="48" rx="10" fill="#111827" stroke="#475569"/><text x="24" y="30" fill="#F8FAFC">GH</text></g>
+    <g transform="translate(755 22)"><rect width="48" height="48" rx="10" fill="#334155"/><text x="24" y="30" fill="#E2E8F0">Lx</text></g>
+    <g transform="translate(815 22)"><rect width="48" height="48" rx="10" fill="#2563EB"/><text x="24" y="30" fill="#DBEAFE">VS</text></g>
+  </g>
+</svg>

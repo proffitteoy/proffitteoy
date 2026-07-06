@@ -1,0 +1,27 @@
+<svg width="860" height="210" viewBox="0 0 860 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub profile details</title>
+  <desc id="desc">A local GitHub profile details summary card.</desc>
+  <rect x="1" y="1" width="858" height="208" rx="12" fill="#111827"/>
+  <rect x="1" y="1" width="858" height="208" rx="12" stroke="#334155"/>
+  <text x="28" y="40" fill="#60A5FA" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">GitHub Profile Details</text>
+  <text x="28" y="66" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">public work organized around research, systems, and developer tools</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">
+    <rect x="28" y="96" width="198" height="58" rx="8" fill="#0F172A"/>
+    <text x="48" y="120" fill="#E0F2FE">Research / Math</text>
+    <text x="48" y="142" fill="#94A3B8" font-weight="500">TDA, PRC, modeling</text>
+    <rect x="242" y="96" width="198" height="58" rx="8" fill="#0F172A"/>
+    <text x="262" y="120" fill="#EDE9FE">AI / Engineering</text>
+    <text x="262" y="142" fill="#94A3B8" font-weight="500">RAG, agents, workflows</text>
+    <rect x="456" y="96" width="198" height="58" rx="8" fill="#0F172A"/>
+    <text x="476" y="120" fill="#FCE7F3">Infrastructure</text>
+    <text x="476" y="142" fill="#94A3B8" font-weight="500">reproducible research tools</text>
+    <rect x="670" y="96" width="162" height="58" rx="8" fill="#0F172A"/>
+    <text x="690" y="120" fill="#DBEAFE">Bias</text>
+    <text x="690" y="142" fill="#94A3B8" font-weight="500">observable artifacts</text>
+  </g>
+  <path d="M28 178H832" stroke="#1E293B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M28 178H268" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M286 178H502" stroke="#818CF8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M520 178H694" stroke="#A78BFA" stroke-width="10" stroke-linecap="round"/>
+  <path d="M712 178H832" stroke="#F472B6" stroke-width="10" stroke-linecap="round"/>
+</svg>

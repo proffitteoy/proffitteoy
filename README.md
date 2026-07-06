@@ -1,17 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,35:1e3a8a,70:7c3aed,100:db2777&text=proffitteoy&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=Applied%20Mathematics%20%C2%B7%20TDA%20%C2%B7%20Agent%20Systems%20%C2%B7%20Research%20Infrastructure&descAlignY=58&descSize=17&animation=fadeIn" alt="proffitteoy animated profile banner" />
+<!-- Images use local SVG snapshots from assets/generated to avoid third-party image outages and stale proxy caches. -->
+<img src="./assets/generated/profile-banner.svg" alt="proffitteoy profile banner" />
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&width=880&lines=Applied+Mathematics+Student;Topological+Data+Analysis+%2F+Mathematical+Modeling;Building+AI-native+Research+Systems;From+Proofs+to+Pipelines%2C+from+Models+to+Agents" alt="Typing SVG introduction" />
+<img src="./assets/generated/intro-line.svg" alt="Applied mathematics, TDA, AI-native research systems, and agent workflows" />
 
 <br />
 
-<img src="https://komarev.com/ghpvc/?username=proffitteoy&style=for-the-badge&color=0ea5e9" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/proffitteoy?style=for-the-badge&logo=github&color=7c3aed" alt="GitHub followers" />
+<img src="./assets/generated/badge-profile.svg" alt="Profile README badge" />
+<img src="./assets/generated/badge-github.svg" alt="GitHub proffitteoy badge" />
 <a href="https://nothing-new.icu/">
-  <img src="https://img.shields.io/badge/Site-nothing--new.icu-db2777?style=for-the-badge" alt="Personal site" />
+  <img src="./assets/generated/badge-site.svg" alt="Personal site badge" />
 </a>
 
 </div>
@@ -22,15 +23,12 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,tailwind,postgres,sqlite,prisma,docker,git,github,linux,vscode" alt="Tech stack icons" />
+<img src="./assets/generated/tech-stack.svg" alt="Tech stack icons" />
 
 <br />
 <br />
 
-<img src="https://img.shields.io/badge/Mathematics-Structural_Modeling-0f172a?style=for-the-badge" alt="Mathematics structural modeling" />
-<img src="https://img.shields.io/badge/TDA-Persistent_Homology-1e3a8a?style=for-the-badge" alt="TDA persistent homology" />
-<img src="https://img.shields.io/badge/AI-RAG_%2F_Agent_Workflow-7c3aed?style=for-the-badge" alt="AI RAG and agent workflow" />
-<img src="https://img.shields.io/badge/Data-PostgreSQL_%2F_SQLite-db2777?style=for-the-badge" alt="PostgreSQL and SQLite" />
+<img src="./assets/generated/radar-badges.svg" alt="Mathematics, TDA, AI, and data radar badges" />
 
 </div>
 
@@ -45,11 +43,11 @@
 ### Research / Math
 
 <a href="https://github.com/proffitteoy/early-rumor-propagation-tda">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=proffitteoy&repo=early-rumor-propagation-tda&theme=tokyonight&hide_border=true" alt="early-rumor-propagation-tda pinned repository card" />
+  <img src="./assets/generated/repo-early-rumor-propagation-tda.svg" alt="early-rumor-propagation-tda pinned repository card" />
 </a>
 
 <a href="https://github.com/proffitteoy/TILO-PRC">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=proffitteoy&repo=TILO-PRC&theme=tokyonight&hide_border=true" alt="TILO-PRC pinned repository card" />
+  <img src="./assets/generated/repo-tilo-prc.svg" alt="TILO-PRC pinned repository card" />
 </a>
 
 </td>
@@ -58,11 +56,11 @@
 ### AI / Engineering
 
 <a href="https://github.com/proffitteoy/Iris-Terminal">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=proffitteoy&repo=Iris-Terminal&theme=tokyonight&hide_border=true" alt="Iris-Terminal pinned repository card" />
+  <img src="./assets/generated/repo-iris-terminal.svg" alt="Iris-Terminal pinned repository card" />
 </a>
 
 <a href="https://github.com/proffitteoy/gitvisual-llm">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=proffitteoy&repo=gitvisual-llm&theme=tokyonight&hide_border=true" alt="gitvisual-llm pinned repository card" />
+  <img src="./assets/generated/repo-gitvisual-llm.svg" alt="gitvisual-llm pinned repository card" />
 </a>
 
 </td>
@@ -88,12 +86,12 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=proffitteoy&theme=tokyonight" alt="GitHub profile details" />
+<img src="./assets/generated/profile-details-summary.svg" alt="GitHub profile details" />
 
 <br />
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=proffitteoy&theme=tokyonight" alt="Repositories per language" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=proffitteoy&theme=tokyonight" alt="Most committed languages" />
+<img width="49%" src="./assets/generated/language-summary.svg" alt="Repositories per language" />
+<img width="49%" src="./assets/generated/commit-language-summary.svg" alt="Most committed languages" />
 
 <br />
 
@@ -117,6 +115,6 @@ Applied Mathematics
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:020617,35:1e3a8a,70:7c3aed,100:db2777" alt="Profile footer wave" />
+<img src="./assets/generated/footer-wave.svg" alt="Profile footer wave" />
 
 </div>
