@@ -24,6 +24,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
+          import textwrap
 
           path = Path('assets/generated/profile-cover.svg')
           src = path.read_text(encoding='utf-8')
@@ -32,17 +33,18 @@ jobs:
               raise SystemExit('No embedded image found in profile-cover.svg')
 
           href = match.group(1)
-          clean = f'''<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">proffitteoy profile cover</title>
-  <desc id="desc">个人主页主视觉原图，无文字覆盖、无模糊、无额外装饰。</desc>
-  <defs>
-    <clipPath id="coverClip"><rect width="1280" height="720" rx="24"/></clipPath>
-  </defs>
-  <g clip-path="url(#coverClip)">
-    <image href="{href}" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
-  </g>
-</svg>
-'''
+          clean = textwrap.dedent(f'''\
+          <svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+            <title id="title">proffitteoy profile cover</title>
+            <desc id="desc">个人主页主视觉原图，无文字覆盖、无模糊、无额外装饰。</desc>
+            <defs>
+              <clipPath id="coverClip"><rect width="1280" height="720" rx="24"/></clipPath>
+            </defs>
+            <g clip-path="url(#coverClip)">
+              <image href="{href}" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+            </g>
+          </svg>
+          ''')
           path.write_text(clean, encoding='utf-8')
           PY
 
