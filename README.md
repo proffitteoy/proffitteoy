@@ -117,14 +117,26 @@
 
 <sub>CODE INTELLIGENCE</sub><br/>
 <a href="https://github.com/proffitteoy/gitvisual-llm"><strong>gitvisual-llm</strong></a><br/>
-仓库可视化、函数图分析与 LLM 辅助代码理解。<br/><br/>
-<code>Code Graph</code> <code>Repository Analysis</code> <code>LLM</code>
+仓库可视化、函数图分析与 LLM 辅助代码理解。
 
 </td>
-<td width="50%" valign="top">
+</tr>
+</table>
+
+---
+
+## 04 / 开源贡献
+
+<table>
+<tr>
+<td width="36%" valign="top">
 
 <sub>OPEN SOURCE CONTRIBUTION</sub><br/>
-<a href="https://github.com/open-ani/animeko"><strong>open-ani/animeko</strong></a><br/>
+<a href="https://github.com/open-ani/animeko"><strong>open-ani/animeko</strong></a>
+
+</td>
+<td width="64%" valign="top">
+
 Android / Kotlin Multiplatform 调试修复、构建验证和 PR 协作。<br/><br/>
 <code>Kotlin Multiplatform</code> <code>Android</code> <code>PR 协作</code>
 
@@ -134,7 +146,7 @@ Android / Kotlin Multiplatform 调试修复、构建验证和 PR 协作。<br/><
 
 ---
 
-## 04 / 语言与技术栈
+## 05 / 语言与技术栈
 
 <div align="center">
 
