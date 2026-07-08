@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/generated/profile-cover.svg#svgView(viewBox(420,0,860,520))" alt="proffitteoy 个人主页主视觉" width="100%" />
+<img src="./assets/generated/profile-cover.svg" alt="proffitteoy 个人主页主视觉" width="100%" />
 
 </div>
 
