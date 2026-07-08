@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/generated/profile-cover.svg" alt="proffitteoy 个人主页主视觉" width="100%" />
+<img src="./assets/generated/profile-cover.svg#svgView(viewBox(500,0,780,405))" alt="proffitteoy 个人主页主视觉" width="100%" />
 
 </div>
 
@@ -33,8 +33,11 @@ $ workflow
 - 数学建模：图结构、扩散过程、统计检验
 - AI 研究系统：本地优先、检索、记忆、Obsidian 工作流
 - Agent 工程：上下文打包、审查循环、生成式产物
-- 开发者工具：仓库可视化、函数图、LLM 辅助分析
 - 开源协作：问题复现、最小补丁、构建验证、review 响应
+
+<br />
+
+<img src="./assets/generated/signature.svg" alt="proffitteoy 签名" width="100%" />
 
 </td>
 </tr>
@@ -59,7 +62,14 @@ $ workflow
 </td>
 <td width="50%" valign="top">
 
-<img src="./assets/generated/tech-stack.svg" alt="技术栈图标" width="100%" />
+### 能力矩阵
+
+| 模块 | 关键词 |
+| --- | --- |
+| 数学与实验 | TDA / 持久同调 / 统计检验 |
+| 应用系统 | React / Next.js / FastAPI |
+| 数据状态 | PostgreSQL / SQLite / Prisma |
+| AI 工程 | RAG / Agent / 上下文工程 |
 
 </td>
 </tr>
@@ -99,12 +109,29 @@ $ workflow
 
 ## 开源贡献
 
+<table>
+<tr>
+<td width="52%" valign="top">
+
 | 上游项目 / 方向 | 贡献方式 |
 | --- | --- |
 | [`open-ani/animeko`](https://github.com/open-ani/animeko) | Android / Kotlin Multiplatform 调试、缺陷修复、构建验证和 PR 协作。 |
 | [`open-ani/animeko PR 记录`](https://github.com/open-ani/animeko/pulls?q=is%3Apr+author%3Aproffitteoy) | 公开补丁记录、review 响应和 release 分支行为跟踪。 |
 | Windows 适配实践 | 环境配置、路径处理、本地验证和跨平台调试。 |
 | GitHub 协作流程 | issue 复现、最小补丁设计、回归测试、维护者沟通。 |
+
+</td>
+<td width="48%" valign="top">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub 贡献图贪吃蛇" src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+</td>
+</tr>
+</table>
 
 ---
 
