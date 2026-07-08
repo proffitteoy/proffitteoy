@@ -1,9 +1,0 @@
-<svg width="178" height="28" viewBox="0 0 178 28" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Profile README badge</title>
-  <desc id="desc">A local profile README badge.</desc>
-  <rect width="178" height="28" rx="6" fill="#0F172A"/>
-  <rect width="72" height="28" rx="6" fill="#0369A1"/>
-  <path d="M72 0H78V28H72V0Z" fill="#0369A1"/>
-  <text x="36" y="18" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">PROFILE</text>
-  <text x="125" y="18" text-anchor="middle" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">README</text>
-</svg>

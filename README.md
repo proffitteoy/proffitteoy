@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/generated/profile-cover.svg" alt="proffitteoy 个人主页主视觉" width="100%" />
+<img src="./assets/generated/profile-studio.png" alt="proffitteoy 个人主页主视觉" width="100%" />
 
 </div>
 
@@ -32,16 +32,6 @@
 
 ---
 
-## 语言与技术栈
-
-<div align="center">
-
-<img src="./assets/generated/tech-stack.svg" alt="语言与技术栈" width="100%" />
-
-</div>
-
----
-
 ## 原创作品精选
 
 <table>
@@ -50,25 +40,65 @@
 
 ### 科研原创
 
-**[`early-rumor-propagation-tda`](https://github.com/proffitteoy/early-rumor-propagation-tda)**  
-早期谣言传播树的拓扑特征构造与持久同调分析。
+<table>
+<tr>
+<td valign="top" width="54">🧭</td>
+<td valign="top">
+<a href="https://github.com/proffitteoy/early-rumor-propagation-tda"><strong>early-rumor-propagation-tda</strong></a><br/>
+早期谣言传播树的拓扑特征构造与持久同调分析。<br/><br/>
+<code>TDA</code> <code>Propagation Tree</code> <code>Persistent Homology</code>
+</td>
+</tr>
+</table>
 
-**[`TILO-PRC`](https://github.com/proffitteoy/TILO-PRC)**  
-结构感知图聚类、PRC 与 TILO 划分流程。
+<table>
+<tr>
+<td valign="top" width="54">▦</td>
+<td valign="top">
+<a href="https://github.com/proffitteoy/TILO-PRC"><strong>TILO-PRC</strong></a><br/>
+结构感知图聚类、PRC 与 TILO 划分流程。<br/><br/>
+<code>Graph Clustering</code> <code>PRC</code> <code>TILO</code>
+</td>
+</tr>
+</table>
 
 </td>
 <td width="50%" valign="top">
 
 ### AI 原创
 
-**[`Iris-Terminal`](https://github.com/proffitteoy/Iris-Terminal)**  
-本地优先 AI 研究工作台。
+<table>
+<tr>
+<td valign="top" width="54">⌘</td>
+<td valign="top">
+<a href="https://github.com/proffitteoy/Iris-Terminal"><strong>Iris-Terminal</strong></a><br/>
+本地优先 AI 研究工作台。<br/><br/>
+<code>Local-first</code> <code>Research Workspace</code>
+</td>
+</tr>
+</table>
 
-**[`ManiMind`](https://github.com/proffitteoy/ManiMind)**  
-面向研究产物生成的 Agent 编排层。
+<table>
+<tr>
+<td valign="top" width="54">◎</td>
+<td valign="top">
+<a href="https://github.com/proffitteoy/ManiMind"><strong>ManiMind</strong></a><br/>
+面向研究产物生成的 Agent 编排层。<br/><br/>
+<code>Agent</code> <code>Artifact Pipeline</code>
+</td>
+</tr>
+</table>
 
-**[`gitvisual-llm`](https://github.com/proffitteoy/gitvisual-llm)**  
-仓库可视化、函数图分析与 LLM 辅助代码理解。
+<table>
+<tr>
+<td valign="top" width="54">◇</td>
+<td valign="top">
+<a href="https://github.com/proffitteoy/gitvisual-llm"><strong>gitvisual-llm</strong></a><br/>
+仓库可视化、函数图分析与 LLM 辅助代码理解。<br/><br/>
+<code>Code Graph</code> <code>Repository Analysis</code> <code>LLM</code>
+</td>
+</tr>
+</table>
 
 </td>
 </tr>
@@ -78,26 +108,34 @@
 
 ## 开源贡献
 
-**[`open-ani/animeko`](https://github.com/open-ani/animeko)**：Android / Kotlin Multiplatform 调试、缺陷修复、构建验证和 PR 协作。  
-**[`PR 记录`](https://github.com/open-ani/animeko/pulls?q=is%3Apr+author%3Aproffitteoy)**：公开补丁记录、review 响应与 release 分支行为跟踪。  
-**Windows 适配实践**：环境配置、路径处理、本地验证和跨平台调试。
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub 贡献图贪吃蛇" src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
-
-</div>
+<table>
+<tr>
+<td valign="top" width="54">🛠️</td>
+<td valign="top">
+<a href="https://github.com/open-ani/animeko"><strong>open-ani/animeko</strong></a><br/>
+Android / Kotlin Multiplatform 调试修复和 PR 协作。<br/><br/>
+<code>Kotlin Multiplatform</code> <code>Android</code> <code>PR 协作</code>
+</td>
+</tr>
+</table>
 
 ---
 
-<div align="center">
+## 语言与技术栈
 
-**应用数学 → 拓扑数据分析 → AI 研究系统 → 开源基础设施**
-
-<img src="./assets/generated/footer-wave.svg" alt="页脚波浪" />
-
-</div>
+<table>
+<tr>
+<td width="33%" valign="top">
+<strong>研究计算</strong><br/><br/>
+<code>Python</code> <code>TDA</code> <code>Statistical Modeling</code>
+</td>
+<td width="34%" valign="top">
+<strong>AI 工程</strong><br/><br/>
+<code>RAG</code> <code>Agent</code> <code>TypeScript</code> <code>React</code>
+</td>
+<td width="33%" valign="top">
+<strong>开源基础设施</strong><br/><br/>
+<code>GitHub Actions</code> <code>Docker</code> <code>PostgreSQL</code>
+</td>
+</tr>
+</table>
