@@ -1,8 +1,5 @@
-<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">proffitteoy profile cover</title>
-  <desc id="desc">个人主页主视觉原图，无文字覆盖。</desc>
-  <defs><clipPath id="clip"><rect width="1280" height="520" rx="28"/></clipPath></defs>
-  <g clip-path="url(#clip)">
-    <image href="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/assets/generated/profile-cover-source.png" x="0" y="0" width="1280" height="520" preserveAspectRatio="xMidYMid slice"/>
-  </g>
+  <desc id="desc">个人主页主视觉。</desc>
+  <image href="./profile-studio.svg" x="0" y="0" width="960" height="540" preserveAspectRatio="xMidYMid meet"/>
 </svg>
