@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/generated/profile-cover.svg" alt="proffitteoy 个人主页主视觉" width="100%" />
+<img src="./assets/generated/profile-cover.svg#svgView(viewBox(420,0,860,520))" alt="proffitteoy 个人主页主视觉" width="100%" />
 
 </div>
 
@@ -16,21 +16,15 @@
 
 我希望把论文、代码、实验记录和工具系统做成可以被复现、检查和继续扩展的产物。
 
-```bash
-read -> model -> build -> verify -> publish
-```
-
 </td>
 <td width="42%" valign="top">
 
 ## 关注方向
 
-- 拓扑数据分析 / 持久同调 / 传播树
-- 数学建模 / 图结构 / 统计检验
-- AI 研究工作台 / RAG / Agent
-- 开源协作 / 问题复现 / 最小补丁
-
-<img src="./assets/generated/signature.svg" alt="proffitteoy 签名" width="100%" />
+- 拓扑数据分析、持久同调、传播树
+- 数学建模、图结构、统计检验
+- AI 研究工作台、RAG、Agent
+- 开源协作、问题复现、最小补丁
 
 </td>
 </tr>
@@ -84,21 +78,11 @@ read -> model -> build -> verify -> publish
 
 ## 开源贡献
 
-<table>
-<tr>
-<td width="54%" valign="top">
+**[`open-ani/animeko`](https://github.com/open-ani/animeko)**：Android / Kotlin Multiplatform 调试、缺陷修复、构建验证和 PR 协作。  
+**[`PR 记录`](https://github.com/open-ani/animeko/pulls?q=is%3Apr+author%3Aproffitteoy)**：公开补丁记录、review 响应与 release 分支行为跟踪。  
+**Windows 适配实践**：环境配置、路径处理、本地验证和跨平台调试。
 
-**[`open-ani/animeko`](https://github.com/open-ani/animeko)**  
-Android / Kotlin Multiplatform 调试、缺陷修复、构建验证和 PR 协作。
-
-**[`PR 记录`](https://github.com/open-ani/animeko/pulls?q=is%3Apr+author%3Aproffitteoy)**  
-公开补丁记录、review 响应与 release 分支行为跟踪。
-
-**Windows 适配实践**  
-环境配置、路径处理、本地验证和跨平台调试。
-
-</td>
-<td width="46%" valign="top">
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake-dark.svg">
@@ -106,9 +90,7 @@ Android / Kotlin Multiplatform 调试、缺陷修复、构建验证和 PR 协作
   <img alt="GitHub 贡献图贪吃蛇" src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
