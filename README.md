@@ -32,6 +32,16 @@
 
 ---
 
+## 语言与技术栈
+
+<div align="center">
+
+<img src="./assets/generated/tech-stack.svg" alt="语言与技术栈" width="100%" />
+
+</div>
+
+---
+
 ## 原创作品精选
 
 <table>
@@ -113,29 +123,20 @@
 <td valign="top" width="54">🛠️</td>
 <td valign="top">
 <a href="https://github.com/open-ani/animeko"><strong>open-ani/animeko</strong></a><br/>
-Android / Kotlin Multiplatform 调试修复和 PR 协作。<br/><br/>
+Android / Kotlin Multiplatform 调试、缺陷修复、构建验证和 PR 协作。<br/>
+<a href="https://github.com/open-ani/animeko/pulls?q=is%3Apr+author%3Aproffitteoy">PR 记录</a>：公开补丁记录、review 响应与 release 分支行为跟踪。<br/>
+Windows 适配实践：环境配置、路径处理、本地验证和跨平台调试。<br/><br/>
 <code>Kotlin Multiplatform</code> <code>Android</code> <code>PR 协作</code>
 </td>
 </tr>
 </table>
 
----
+<div align="center">
 
-## 语言与技术栈
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub 贡献图贪吃蛇" src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<strong>研究计算</strong><br/><br/>
-<code>Python</code> <code>TDA</code> <code>Statistical Modeling</code>
-</td>
-<td width="34%" valign="top">
-<strong>AI 工程</strong><br/><br/>
-<code>RAG</code> <code>Agent</code> <code>TypeScript</code> <code>React</code>
-</td>
-<td width="33%" valign="top">
-<strong>开源基础设施</strong><br/><br/>
-<code>GitHub Actions</code> <code>Docker</code> <code>PostgreSQL</code>
-</td>
-</tr>
-</table>
+</div>

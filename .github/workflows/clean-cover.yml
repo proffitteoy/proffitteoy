@@ -1,0 +1,59 @@
+name: Clean profile cover
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/clean-cover.yml
+      - README.md
+      - assets/generated/profile-cover.svg
+
+permissions:
+  contents: write
+
+jobs:
+  clean-cover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild cover without overlays
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path('assets/generated/profile-cover.svg')
+          src = path.read_text(encoding='utf-8')
+          match = re.search(r'<image[^>]+href="([^"]+)"', src)
+          if not match:
+              raise SystemExit('No embedded image found in profile-cover.svg')
+
+          href = match.group(1)
+          clean = f'''<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">proffitteoy profile cover</title>
+  <desc id="desc">个人主页主视觉原图，无文字覆盖、无模糊、无额外装饰。</desc>
+  <defs>
+    <clipPath id="coverClip"><rect width="1280" height="720" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#coverClip)">
+    <image href="{href}" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+</svg>
+'''
+          path.write_text(clean, encoding='utf-8')
+          PY
+
+      - name: Commit cleaned cover
+        run: |
+          if git diff --quiet -- assets/generated/profile-cover.svg; then
+            echo "profile-cover.svg already clean"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated/profile-cover.svg
+          git commit -m "Clean profile cover image"
+          git push

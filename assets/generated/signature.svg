@@ -1,0 +1,19 @@
+<svg width="520" height="150" viewBox="0 0 520 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">proffitteoy signature</title>
+  <desc id="desc">proffitteoy 的个人签名图形。</desc>
+  <defs>
+    <linearGradient id="ink" x1="44" y1="40" x2="474" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.48" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="520" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="518" height="148" rx="18" fill="url(#bg)" stroke="#CBD5E1"/>
+  <path d="M46 103C82 68 122 54 160 69C187 80 188 108 161 113C131 118 127 83 161 61C203 34 267 49 284 81C297 105 272 121 252 106C231 90 247 57 287 51C329 45 348 72 333 98C319 121 286 112 298 83C314 43 390 42 420 72C441 94 430 120 404 120C381 120 373 99 390 82C410 62 451 68 476 95" stroke="url(#ink)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="42" fill="#0F172A" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800">proffitteoy</text>
+  <text x="52" y="130" fill="#475569" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="13">数学建模 · AI 研究系统 · 开源工程</text>
+</svg>
