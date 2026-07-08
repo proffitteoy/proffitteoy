@@ -24,7 +24,7 @@
 
 目前正在准备应用数学的考研，同时我希望把论文、代码、笔记和工具系统做成可以被复现、检查和展示的产物。
 
-<a href="https://nothing-new.icu/"><strong>nothing-new.icu</strong></a>：写作、项目展示与研究笔记入口。
+<a href="https://nothing-new.icu/"><strong>nothing-new.icu</strong></a>：个人网站，感兴趣的话可以来参观呀，欢迎提友链。
 
 </td>
 <td width="38%" valign="top">
@@ -46,30 +46,7 @@
 </tr>
 </table>
 
-</td>
-</tr>
-</table>
 
-<table>
-<tr>
-<td align="center" width="25%">
-<strong>数学建模</strong><br/>
-<sub>抽象、验证、复现</sub>
-</td>
-<td align="center" width="25%">
-<strong>拓扑数据分析</strong><br/>
-<sub>持久同调、传播树</sub>
-</td>
-<td align="center" width="25%">
-<strong>AI 研究系统</strong><br/>
-<sub>RAG、Agent、工作台</sub>
-</td>
-<td align="center" width="25%">
-<strong>开源工程</strong><br/>
-<sub>最小补丁、协作、交付</sub>
-</td>
-</tr>
-</table>
 
 ---
 
@@ -110,18 +87,7 @@
 面向研究产物生成的 Agent 编排层。<br/><br/>
 <code>Agent</code> <code>Artifact Pipeline</code>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 
-<sub>CODE INTELLIGENCE</sub><br/>
-<a href="https://github.com/proffitteoy/gitvisual-llm"><strong>gitvisual-llm</strong></a><br/>
-仓库可视化、函数图分析与 LLM 辅助代码理解。
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -154,23 +120,6 @@ Android / Kotlin Multiplatform 调试修复、构建验证和 PR 协作。<br/><
 
 </div>
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<strong>研究计算</strong><br/><br/>
-<code>Python</code> <code>TDA</code> <code>Statistical Modeling</code>
-</td>
-<td width="34%" valign="top">
-<strong>AI 工程</strong><br/><br/>
-<code>RAG</code> <code>Agent</code> <code>TypeScript</code> <code>React</code>
-</td>
-<td width="33%" valign="top">
-<strong>开源基础设施</strong><br/><br/>
-<code>GitHub Actions</code> <code>Docker</code> <code>PostgreSQL</code>
-</td>
-</tr>
-</table>
-
 ---
 
 <div align="center">
@@ -180,9 +129,5 @@ Android / Kotlin Multiplatform 调试修复、构建验证和 PR 协作。<br/><
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg">
   <img alt="GitHub 贡献图贪吃蛇" src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
-
-<br/>
-
-<strong>应用数学 → 拓扑数据分析 → AI 研究系统 → 开源基础设施</strong>
 
 </div>
