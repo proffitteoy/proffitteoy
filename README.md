@@ -46,7 +46,9 @@
 </tr>
 </table>
 
-
+</td>
+</tr>
+</table>
 
 ---
 
@@ -87,7 +89,9 @@
 面向研究产物生成的 Agent 编排层。<br/><br/>
 <code>Agent</code> <code>Artifact Pipeline</code>
 
-
+</td>
+</tr>
+</table>
 
 ---
 
@@ -129,5 +133,7 @@ Android / Kotlin Multiplatform 调试修复、构建验证和 PR 协作。<br/><
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg">
   <img alt="GitHub 贡献图贪吃蛇" src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
+
+<br/>
 
 </div>
