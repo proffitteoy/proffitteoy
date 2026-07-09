@@ -1,8 +1,0 @@
-<svg width="880" height="72" viewBox="0 0 880 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Intro line</title>
-  <desc id="desc">Applied mathematics, TDA, AI-native research systems, and agent workflows.</desc>
-  <rect x="1" y="1" width="878" height="70" rx="12" fill="#0F172A"/>
-  <rect x="1" y="1" width="878" height="70" rx="12" stroke="#334155"/>
-  <text x="440" y="31" text-anchor="middle" fill="#38BDF8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Applied Mathematics Student</text>
-  <text x="440" y="54" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="14">TDA / Mathematical Modeling / AI-native Research Systems / Agents</text>
-</svg>
