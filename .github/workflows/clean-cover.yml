@@ -7,7 +7,6 @@ on:
       - main
     paths:
       - .github/workflows/clean-cover.yml
-      - README.md
       - assets/generated/profile-cover.svg
 
 permissions:
@@ -27,6 +26,10 @@ jobs:
           import textwrap
 
           path = Path('assets/generated/profile-cover.svg')
+          if not path.exists():
+              print('profile-cover.svg not found; current README uses profile-studio.png, skipping')
+              raise SystemExit(0)
+
           src = path.read_text(encoding='utf-8')
           match = re.search(r'<image[^>]+href="([^"]+)"', src)
           if not match:
@@ -50,6 +53,10 @@ jobs:
 
       - name: Commit cleaned cover
         run: |
+          if [ ! -f assets/generated/profile-cover.svg ]; then
+            echo "profile-cover.svg not present; nothing to clean"
+            exit 0
+          fi
           if git diff --quiet -- assets/generated/profile-cover.svg; then
             echo "profile-cover.svg already clean"
             exit 0
