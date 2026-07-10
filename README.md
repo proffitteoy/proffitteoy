@@ -56,7 +56,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 
 <sub>RESEARCH ORIGINAL</sub><br/>
 <a href="https://github.com/proffitteoy/early-rumor-propagation-tda"><strong>early-rumor-propagation-tda</strong></a><br/>
@@ -64,7 +64,7 @@
 <code>TDA</code> <code>Propagation Tree</code> <code>Persistent Homology</code>
 
 </td>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 
 <sub>AI WORKBENCH</sub><br/>
 <a href="https://github.com/proffitteoy/Iris-Terminal"><strong>Iris-Terminal</strong></a><br/>
@@ -72,9 +72,17 @@
 <code>Local-first</code> <code>Research Workspace</code>
 
 </td>
+<td width="33.33%" valign="top">
+
+<sub>CAMPUS COMPETITION UI</sub><br/>
+<a href="https://github.com/GDUF-quantitative/ai-data-competitions-ui"><strong>ai-data-competitions-ui</strong></a><br/>
+面向学生竞赛的学院级服务中心 UI 与组件体系。<br/><br/>
+<code>Next.js</code> <code>React</code> <code>Tailwind CSS</code>
+
+</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 
 <sub>GRAPH METHOD</sub><br/>
 <a href="https://github.com/proffitteoy/TILO-PRC"><strong>TILO-PRC</strong></a><br/>
@@ -82,12 +90,20 @@
 <code>Graph Clustering</code> <code>PRC</code> <code>TILO</code>
 
 </td>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 
 <sub>AGENT PIPELINE</sub><br/>
 <a href="https://github.com/proffitteoy/ManiMind"><strong>ManiMind</strong></a><br/>
 面向研究产物生成的 Agent 编排层。<br/><br/>
 <code>Agent</code> <code>Artifact Pipeline</code>
+
+</td>
+<td width="33.33%" valign="top">
+
+<sub>COGNITIVE WORKSTATION</sub><br/>
+<a href="https://github.com/proffitteoy/Task-Manager"><strong>Task-Manager</strong></a><br/>
+本地优先认知工作站，串联任务、计时、活动统计与每日复盘。<br/><br/>
+<code>Task Management</code> <code>Local-first</code> <code>Electron</code>
 
 </td>
 </tr>
