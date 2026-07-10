@@ -76,7 +76,7 @@
 
 <sub>CAMPUS COMPETITION UI</sub><br/>
 <a href="https://github.com/GDUF-quantitative/ai-data-competitions-ui"><strong>ai-data-competitions-ui</strong></a><br/>
-面向学生竞赛的学院级服务中心 UI 与组件体系。<br/><br/>
+面向学生竞赛的学院级服务网站与组件体系。<br/><br/>
 <code>Next.js</code> <code>React</code> <code>Tailwind CSS</code>
 
 </td>
