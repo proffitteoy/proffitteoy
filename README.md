@@ -128,6 +128,20 @@ Android / Kotlin Multiplatform 调试修复、构建验证和 PR 协作。<br/><
 
 </td>
 </tr>
+<tr>
+<td width="36%" valign="top">
+
+<sub>OPEN SOURCE CONTRIBUTION</sub><br/>
+<a href="https://github.com/cclank/tokei"><strong>cclank/tokei</strong></a>
+
+</td>
+<td width="64%" valign="top">
+
+为 collector 进行 Windows 端适配工作。<br/><br/>
+<code>Python</code> <code>Windows</code> <code>跨平台兼容</code>
+
+</td>
+</tr>
 </table>
 
 ---
