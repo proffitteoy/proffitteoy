@@ -123,7 +123,7 @@
 </td>
 <td width="64%" valign="top">
 
-Android / Kotlin Multiplatform 调试修复、构建验证和 PR 协作。<br/><br/>
+Android / Kotlin Multiplatform 调试修复和 CNN 验证码识别算法开发。<br/><br/>
 <code>Kotlin Multiplatform</code> <code>Android</code> <code>PR 协作</code>
 
 </td>
@@ -144,25 +144,6 @@ Android / Kotlin Multiplatform 调试修复、构建验证和 PR 协作。<br/><
 </tr>
 </table>
 
----
-
-## 05 / 语言与技术栈
-
-<div align="center">
-
-<img src="./assets/generated/tech-stack.svg" alt="语言与技术栈" width="100%" />
-
-</div>
-
----
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub 贡献图贪吃蛇" src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
 
 <br/>
 
