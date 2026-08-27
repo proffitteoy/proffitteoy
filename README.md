@@ -1,6 +1,18 @@
 <table>
 <tr>
-<td width="40%" valign="middle">
+<td width="40%" valign="middle" align="center">
+
+<img src="./assets/generated/avatar-ascii.svg" alt="proffitteoy ASCII 矢量头像" width="100%" />
+
+</td>
+<td width="60%" valign="middle">
+
+<code>proffitteoy@github</code> ─────────────────────────<br/>
+<sub>IDENTITY</sub>　金融数学专业本科生<br/>
+<sub>FOCUS</sub>　应用数学 · TDA · 数学建模 · AI 系统<br/>
+<sub>STATUS</sub>　备考中 · 构建中 · 开源中
+
+<br/>
 
 我是 **proffitteoy**，金融数学专业本科生，可能还是个二次元？关注数学建模、拓扑数据分析、AI 系统和开源工程。
 
@@ -9,23 +21,8 @@
 <a href="https://nothing-new.icu/"><strong>nothing-new.icu</strong></a>：个人网站，感兴趣的话可以来参观呀，欢迎提友链。
 
 </td>
-<td width="60%" valign="middle">
-
-<img src="./assets/generated/profile-studio.png" alt="proffitteoy 个人主页主视觉" width="100%" />
-
-</td>
 </tr>
 </table>
-
-<div align="center">
-
-<a href="https://nothing-new.icu/"><img src="./assets/generated/badge-site.svg" alt="个人网站 nothing-new.icu" /></a>
-&nbsp;
-<a href="https://github.com/proffitteoy"><img src="./assets/generated/badge-github.svg" alt="GitHub proffitteoy" /></a>
-&nbsp;
-<img src="./assets/generated/badge-profile.svg" alt="Profile README" />
-
-</div>
 
 ---
 
@@ -59,30 +56,14 @@
 </td>
 <td width="25%" valign="top">
 
-<sub>GRAPH METHOD</sub><br/>
-<a href="https://github.com/proffitteoy/TILO-PRC"><strong>TILO-PRC</strong></a><br/>
-结构感知图聚类、PRC 与 TILO 划分流程。<br/><br/>
-<code>Graph Clustering</code> <code>PRC</code> <code>TILO</code>
+<sub>TOPOLOGY LIBRARY</sub><br/>
+<a href="https://github.com/proffitteoy/Topp"><strong>topp</strong></a><br/>
+面向拓扑数据分析的高性能距离计算与精确匹配 Python 库。<br/><br/>
+<code>TDA</code> <code>Python</code> <code>Exact Matching</code>
 
 </td>
 </tr>
 <tr>
-<td width="25%" valign="top">
-
-<sub>AGENT PIPELINE</sub><br/>
-<a href="https://github.com/proffitteoy/ManiMind"><strong>ManiMind</strong></a><br/>
-面向研究产物生成的 Agent 编排层。<br/><br/>
-<code>Agent</code> <code>Artifact Pipeline</code>
-
-</td>
-<td width="25%" valign="top">
-
-<sub>COGNITIVE WORKSTATION</sub><br/>
-<a href="https://github.com/proffitteoy/Task-Manager"><strong>Task-Manager</strong></a><br/>
-本地优先认知工作站，串联任务、计时、活动统计与每日复盘。<br/><br/>
-<code>Task Management</code> <code>Local-first</code> <code>Electron</code>
-
-</td>
 <td width="25%" valign="top">
 
 <sub>OPEN SOURCE CONTRIBUTION</sub><br/>
@@ -91,12 +72,17 @@ Android / Kotlin Multiplatform 调试修复和 CNN 验证码识别算法开发�
 <code>Kotlin Multiplatform</code> <code>Android</code> <code>PR 协作</code>
 
 </td>
+<td width="50%" colspan="2" valign="middle" align="center">
+
+<img src="./assets/generated/profile-studio.png" alt="proffitteoy 个人主页主视觉" width="100%" />
+
+</td>
 <td width="25%" valign="top">
 
 <sub>OPEN SOURCE CONTRIBUTION</sub><br/>
-<a href="https://github.com/cclank/tokei"><strong>cclank/tokei</strong></a><br/>
-为 collector 进行 Windows 端适配工作。<br/><br/>
-<code>Python</code> <code>Windows</code> <code>跨平台兼容</code>
+<a href="https://github.com/GUDHI/gudhi-devel"><strong>GUDHI/gudhi-devel</strong></a><br/>
+参与瓶颈距离匹配算法修复与跨平台验证。<br/><br/>
+<code>C++</code> <code>Bottleneck Distance</code> <code>PR 协作</code>
 
 </td>
 </tr>
