@@ -1,8 +1,8 @@
-"""Refresh the dynamic values in the profile SVG templates.
+"""Incrementally refresh GitHub metrics in the profile SVG templates.
 
-Adapted from Andrew6rant/Andrew6rant's today.py.  The SVG artwork and layout
-stay in the templates; this script only replaces text in elements with stable
-IDs and refreshes the per-repository LOC cache.
+Run ``initialize_profile.py`` once to build the v2 cache.  Normal scheduled
+runs execute this file and fetch only commits newer than each repository's
+cached author-commit OID.
 """
 
 from __future__ import annotations
@@ -21,8 +21,12 @@ ACCESS_TOKEN = os.environ["ACCESS_TOKEN"]
 USER_NAME = os.environ.get("USER_NAME", "proffitteoy")
 HEADERS = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
 GRAPHQL_URL = "https://api.github.com/graphql"
+CACHE_VERSION = "# profile-cache-v2"
 CACHE_PATH = Path("cache") / f"{hashlib.sha256(USER_NAME.encode()).hexdigest()}.txt"
 SVG_PATHS = (Path("light_mode.svg"), Path("dark_mode.svg"))
+
+# author_total, displayed_commits, additions, deletions, newest_author_commit_oid
+CacheEntry = tuple[int, int, int, int, str]
 
 
 def graphql(query: str, variables: dict[str, Any]) -> dict[str, Any]:
@@ -77,7 +81,12 @@ def repositories(affiliations: list[str], owner_id: str) -> list[dict[str, Any]]
             stargazerCount
             defaultBranchRef {
               target {
-                ... on Commit { history(author: {id: $ownerId}) { totalCount } }
+                ... on Commit {
+                  history(first: 1, author: {id: $ownerId}) {
+                    totalCount
+                    nodes { oid }
+                  }
+                }
               }
             }
           }
@@ -104,7 +113,18 @@ def repositories(affiliations: list[str], owner_id: str) -> list[dict[str, Any]]
         cursor = connection["pageInfo"]["endCursor"]
 
 
-def repository_loc(owner_id: str, name_with_owner: str) -> tuple[int, int, int]:
+def repository_state(repository: dict[str, Any]) -> tuple[int, str]:
+    branch = repository.get("defaultBranchRef")
+    if not branch:
+        return 0, "-"
+    history = branch["target"]["history"]
+    nodes = history["nodes"]
+    return int(history["totalCount"]), nodes[0]["oid"] if nodes else "-"
+
+
+def repository_history_page(
+    owner_id: str, name_with_owner: str, cursor: str | None
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     owner, name = name_with_owner.split("/", 1)
     query = """
     query($owner: String!, $name: String!, $authorId: ID!, $cursor: String) {
@@ -113,11 +133,7 @@ def repository_loc(owner_id: str, name_with_owner: str) -> tuple[int, int, int]:
           target {
             ... on Commit {
               history(first: 100, after: $cursor, author: {id: $authorId}) {
-                nodes {
-                  additions
-                  deletions
-                  author { user { id } }
-                }
+                nodes { oid additions deletions }
                 pageInfo { hasNextPage endCursor }
               }
             }
@@ -126,95 +142,179 @@ def repository_loc(owner_id: str, name_with_owner: str) -> tuple[int, int, int]:
       }
     }
     """
+    repository = graphql(
+        query,
+        {"owner": owner, "name": name, "authorId": owner_id, "cursor": cursor},
+    )["repository"]
+    branch = repository and repository["defaultBranchRef"]
+    if not branch:
+        return [], {"hasNextPage": False, "endCursor": None}
+    history = branch["target"]["history"]
+    return history["nodes"], history["pageInfo"]
+
+
+def scan_repository(owner_id: str, name_with_owner: str) -> CacheEntry:
     additions = deletions = commits = 0
+    newest_oid = "-"
     cursor: str | None = None
     while True:
-        repository = graphql(
-            query,
-            {"owner": owner, "name": name, "authorId": owner_id, "cursor": cursor},
-        )["repository"]
-        branch = repository and repository["defaultBranchRef"]
-        if not branch:
-            return additions, deletions, commits
-        history = branch["target"]["history"]
-        for commit in history["nodes"]:
-            author = commit.get("author") or {}
-            user = author.get("user") or {}
-            if user.get("id") == owner_id:
-                commits += 1
-                additions += int(commit["additions"])
-                deletions += int(commit["deletions"])
-        if not history["pageInfo"]["hasNextPage"]:
-            return additions, deletions, commits
-        cursor = history["pageInfo"]["endCursor"]
+        nodes, page_info = repository_history_page(owner_id, name_with_owner, cursor)
+        if newest_oid == "-" and nodes:
+            newest_oid = nodes[0]["oid"]
+        commits += len(nodes)
+        additions += sum(int(commit["additions"]) for commit in nodes)
+        deletions += sum(int(commit["deletions"]) for commit in nodes)
+        if not page_info["hasNextPage"]:
+            return commits, commits, additions, deletions, newest_oid
+        cursor = page_info["endCursor"]
 
 
-def load_cache() -> dict[str, tuple[int, int, int, int]]:
-    cache: dict[str, tuple[int, int, int, int]] = {}
+def scan_new_commits(
+    owner_id: str, name_with_owner: str, previous_oid: str
+) -> tuple[int, int, int, str, bool]:
+    additions = deletions = commits = 0
+    newest_oid = "-"
+    cursor: str | None = None
+    while True:
+        nodes, page_info = repository_history_page(owner_id, name_with_owner, cursor)
+        if newest_oid == "-" and nodes:
+            newest_oid = nodes[0]["oid"]
+        for commit in nodes:
+            if commit["oid"] == previous_oid:
+                return commits, additions, deletions, newest_oid, True
+            commits += 1
+            additions += int(commit["additions"])
+            deletions += int(commit["deletions"])
+        if not page_info["hasNextPage"]:
+            return commits, additions, deletions, newest_oid, previous_oid == "-"
+        cursor = page_info["endCursor"]
+
+
+def load_cache() -> tuple[bool, dict[str, CacheEntry]]:
+    cache: dict[str, CacheEntry] = {}
     if not CACHE_PATH.exists():
-        return cache
-    for line in CACHE_PATH.read_text(encoding="utf-8").splitlines():
-        try:
-            identifier, total, commits, additions, deletions = line.split("\t")
-            if "/" in identifier:
-                identifier = hashlib.sha256(identifier.encode()).hexdigest()
-            cache[identifier] = (
-                int(total),
-                int(commits),
-                int(additions),
-                int(deletions),
-            )
-        except ValueError:
+        return False, cache
+    lines = CACHE_PATH.read_text(encoding="utf-8").splitlines()
+    versioned = bool(lines and lines[0] == CACHE_VERSION)
+    for line in lines[1:] if versioned else lines:
+        if not line or line.startswith("#"):
             continue
-    return cache
+        fields = line.split("\t")
+        if len(fields) not in {5, 6}:
+            continue
+        identifier, total, commits, additions, deletions = fields[:5]
+        newest_oid = fields[5] if len(fields) == 6 else "-"
+        if "/" in identifier:
+            identifier = hashlib.sha256(identifier.encode()).hexdigest()
+        cache[identifier] = (
+            int(total),
+            int(commits),
+            int(additions),
+            int(deletions),
+            newest_oid,
+        )
+    return versioned, cache
 
 
-def write_cache(cache: dict[str, tuple[int, int, int, int]]) -> None:
+def write_cache(cache: dict[str, CacheEntry]) -> None:
     CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    CACHE_PATH.write_text(
-        "".join(
-            f"{name}\t{total}\t{commits}\t{additions}\t{deletions}\n"
-            for name, (total, commits, additions, deletions) in sorted(cache.items())
-        ),
-        encoding="utf-8",
+    body = "".join(
+        f"{identifier}\t{total}\t{commits}\t{additions}\t{deletions}\t{newest_oid}\n"
+        for identifier, (total, commits, additions, deletions, newest_oid) in sorted(
+            cache.items()
+        )
     )
+    CACHE_PATH.write_text(f"{CACHE_VERSION}\n{body}", encoding="utf-8")
 
 
-def refresh_cache(
+def initialize_cache(
     owner_id: str, repo_nodes: list[dict[str, Any]]
-) -> tuple[int, int, int]:
-    old_cache = load_cache()
-    new_cache: dict[str, tuple[int, int, int, int]] = {}
+) -> dict[str, CacheEntry]:
+    cache: dict[str, CacheEntry] = {}
     for repository in repo_nodes:
         name = repository["nameWithOwner"]
         identifier = hashlib.sha256(name.encode()).hexdigest()
-        branch = repository.get("defaultBranchRef")
-        total = int(branch["target"]["history"]["totalCount"]) if branch else 0
-        cached = old_cache.get(identifier)
-        if cached and cached[0] == total:
-            new_cache[identifier] = cached
+        print(f"Initial scan: {name}", flush=True)
+        entry = scan_repository(owner_id, name)
+        expected_total, expected_oid = repository_state(repository)
+        if entry[0] != expected_total or entry[4] != expected_oid:
+            raise RuntimeError(f"Repository changed during initial scan: {name}")
+        cache[identifier] = entry
+        write_cache(cache)
+    return cache
+
+
+def increment_cache(
+    owner_id: str, repo_nodes: list[dict[str, Any]]
+) -> dict[str, CacheEntry]:
+    versioned, old_cache = load_cache()
+    if not versioned:
+        raise RuntimeError(
+            "Incremental cache is not initialized; run initialize_profile.py once."
+        )
+
+    current_identifiers = {
+        hashlib.sha256(repository["nameWithOwner"].encode()).hexdigest()
+        for repository in repo_nodes
+    }
+    cache = {
+        identifier: entry
+        for identifier, entry in old_cache.items()
+        if identifier in current_identifiers
+    }
+
+    for repository in repo_nodes:
+        name = repository["nameWithOwner"]
+        identifier = hashlib.sha256(name.encode()).hexdigest()
+        current_total, current_oid = repository_state(repository)
+        previous = cache.get(identifier)
+
+        if previous and previous[0] == current_total and previous[4] == current_oid:
             continue
-        print(f"Refreshing LOC cache: {name}", flush=True)
-        additions, deletions, commits = repository_loc(owner_id, name)
-        new_cache[identifier] = (total, commits, additions, deletions)
-        write_cache(new_cache)
 
-    write_cache(new_cache)
-    commits = sum(item[1] for item in new_cache.values())
-    additions = sum(item[2] for item in new_cache.values())
-    deletions = sum(item[3] for item in new_cache.values())
-    return commits, additions, deletions
+        if previous and current_total > previous[0]:
+            delta_commits, delta_add, delta_del, newest_oid, found_marker = (
+                scan_new_commits(owner_id, name, previous[4])
+            )
+            expected_delta = current_total - previous[0]
+            if found_marker and delta_commits == expected_delta:
+                cache[identifier] = (
+                    current_total,
+                    previous[1] + delta_commits,
+                    previous[2] + delta_add,
+                    previous[3] + delta_del,
+                    newest_oid,
+                )
+                print(
+                    f"Incremented {name}: +{delta_commits} commits, "
+                    f"+{delta_add} lines, -{delta_del} lines",
+                    flush=True,
+                )
+                write_cache(cache)
+                continue
+
+        reason = "new repository" if previous is None else "history changed"
+        print(f"Rebuilding {name} ({reason})", flush=True)
+        entry = scan_repository(owner_id, name)
+        if entry[0] != current_total or entry[4] != current_oid:
+            raise RuntimeError(f"Repository changed during refresh: {name}")
+        cache[identifier] = entry
+        write_cache(cache)
+
+    write_cache(cache)
+    return cache
 
 
-def dotted_value(root: etree._Element, element_id: str, value: int | str, width: int) -> None:
+def dotted_value(
+    root: etree._Element, element_id: str, value: int | str, width: int
+) -> None:
     text = f"{value:,}" if isinstance(value, int) else str(value)
     value_node = root.find(f".//*[@id='{element_id}']")
     dots_node = root.find(f".//*[@id='{element_id}_dots']")
     if value_node is None or dots_node is None:
         raise RuntimeError(f"Missing SVG nodes for {element_id}")
     value_node.text = text
-    remaining = max(2, width - len(text))
-    dots_node.text = " " + "." * remaining + " "
+    dots_node.text = " " + "." * max(2, width - len(text)) + " "
 
 
 def plain_value(root: etree._Element, element_id: str, value: int | str) -> None:
@@ -224,7 +324,7 @@ def plain_value(root: etree._Element, element_id: str, value: int | str) -> None
     node.text = f"{value:,}" if isinstance(value, int) else str(value)
 
 
-def update_svg(path: Path, values: dict[str, int | str]) -> None:
+def update_svg(path: Path, values: dict[str, int]) -> None:
     tree = etree.parse(str(path))
     root = tree.getroot()
     widths = {
@@ -242,17 +342,16 @@ def update_svg(path: Path, values: dict[str, int | str]) -> None:
     tree.write(str(path), encoding="utf-8", xml_declaration=True, pretty_print=True)
 
 
-def main() -> None:
-    owner_id, followers = account_data()
-    owned = repositories(["OWNER"], owner_id)
-    all_accessible = repositories(
-        ["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"], owner_id
-    )
-    commits, additions, deletions = refresh_cache(owner_id, all_accessible)
-    values: dict[str, int | str] = {
+def update_profile(
+    cache: dict[str, CacheEntry], owned: list[dict[str, Any]], all_repos: list[dict[str, Any]], followers: int
+) -> None:
+    commits = sum(entry[1] for entry in cache.values())
+    additions = sum(entry[2] for entry in cache.values())
+    deletions = sum(entry[3] for entry in cache.values())
+    values = {
         "repo_data": len(owned),
-        "contrib_data": len(all_accessible),
-        "star_data": sum(int(repo["stargazerCount"]) for repo in owned),
+        "contrib_data": len(all_repos),
+        "star_data": sum(int(repository["stargazerCount"]) for repository in owned),
         "commit_data": commits,
         "follower_data": followers,
         "loc_data": additions - deletions,
@@ -261,8 +360,29 @@ def main() -> None:
     }
     for svg_path in SVG_PATHS:
         update_svg(svg_path, values)
-    print(f"Updated {', '.join(map(str, SVG_PATHS))} for {USER_NAME}")
+
+
+def initialize() -> None:
+    owner_id, followers = account_data()
+    owned = repositories(["OWNER"], owner_id)
+    all_repos = repositories(
+        ["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"], owner_id
+    )
+    cache = initialize_cache(owner_id, all_repos)
+    update_profile(cache, owned, all_repos, followers)
+    print(f"Initialized profile cache for {USER_NAME}")
+
+
+def daily_update() -> None:
+    owner_id, followers = account_data()
+    owned = repositories(["OWNER"], owner_id)
+    all_repos = repositories(
+        ["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"], owner_id
+    )
+    cache = increment_cache(owner_id, all_repos)
+    update_profile(cache, owned, all_repos, followers)
+    print(f"Incrementally updated profile for {USER_NAME}")
 
 
 if __name__ == "__main__":
-    main()
+    daily_update()
