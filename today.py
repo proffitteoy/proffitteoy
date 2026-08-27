@@ -7,7 +7,6 @@ IDs and refreshes the per-repository LOC cache.
 
 from __future__ import annotations
 
-import datetime as dt
 import hashlib
 import os
 import time
@@ -15,7 +14,6 @@ from pathlib import Path
 from typing import Any
 
 import requests
-from dateutil import relativedelta
 from lxml import etree
 
 
@@ -51,25 +49,17 @@ def graphql(query: str, variables: dict[str, Any]) -> dict[str, Any]:
     raise RuntimeError("GitHub GraphQL request failed")
 
 
-def account_data() -> tuple[str, str, int]:
+def account_data() -> tuple[str, int]:
     query = """
     query($login: String!) {
       user(login: $login) {
         id
-        createdAt
         followers { totalCount }
       }
     }
     """
     user = graphql(query, {"login": USER_NAME})["user"]
-    return user["id"], user["createdAt"], int(user["followers"]["totalCount"])
-
-
-def account_age(created_at: str) -> str:
-    created = dt.datetime.fromisoformat(created_at.replace("Z", "+00:00"))
-    now = dt.datetime.now(dt.timezone.utc)
-    delta = relativedelta.relativedelta(now, created)
-    return f"GitHub {delta.years}y {delta.months}m {delta.days}d"
+    return user["id"], int(user["followers"]["totalCount"])
 
 
 def repositories(affiliations: list[str], owner_id: str) -> list[dict[str, Any]]:
@@ -238,7 +228,6 @@ def update_svg(path: Path, values: dict[str, int | str]) -> None:
     tree = etree.parse(str(path))
     root = tree.getroot()
     widths = {
-        "age_data": 22,
         "repo_data": 28,
         "contrib_data": 21,
         "star_data": 28,
@@ -254,14 +243,13 @@ def update_svg(path: Path, values: dict[str, int | str]) -> None:
 
 
 def main() -> None:
-    owner_id, created_at, followers = account_data()
+    owner_id, followers = account_data()
     owned = repositories(["OWNER"], owner_id)
     all_accessible = repositories(
         ["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"], owner_id
     )
     commits, additions, deletions = refresh_cache(owner_id, all_accessible)
     values: dict[str, int | str] = {
-        "age_data": account_age(created_at),
         "repo_data": len(owned),
         "contrib_data": len(all_accessible),
         "star_data": sum(int(repo["stargazerCount"]) for repo in owned),
