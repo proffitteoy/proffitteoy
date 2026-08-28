@@ -328,12 +328,12 @@ def update_svg(path: Path, values: dict[str, int]) -> None:
     tree = etree.parse(str(path))
     root = tree.getroot()
     widths = {
-        "repo_data": 28,
-        "contrib_data": 21,
-        "star_data": 28,
-        "commit_data": 26,
-        "follower_data": 24,
-        "loc_data": 12,
+        "repo_data": 42,
+        "contrib_data": 35,
+        "star_data": 42,
+        "commit_data": 40,
+        "follower_data": 38,
+        "loc_data": 23,
     }
     for element_id, width in widths.items():
         dotted_value(root, element_id, values[element_id], width)

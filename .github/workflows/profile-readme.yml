@@ -2,6 +2,15 @@ name: Update profile README
 
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: Profile cache operation
+        required: true
+        default: daily
+        type: choice
+        options:
+          - daily
+          - initialize
   push:
     branches:
       - main
@@ -32,7 +41,15 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r cache/requirements.txt
 
-      - name: Refresh profile data
+      - name: Initialize profile cache
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'initialize' }}
+        env:
+          ACCESS_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
+          USER_NAME: ${{ github.repository_owner }}
+        run: python initialize_profile.py
+
+      - name: Incrementally refresh profile data
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.mode == 'daily' }}
         env:
           ACCESS_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
           USER_NAME: ${{ github.repository_owner }}
