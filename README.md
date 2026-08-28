@@ -13,7 +13,7 @@
 
 <sub>RESEARCH · 论文在投</sub><br/>
 <a href="https://github.com/proffitteoy/early-rumor-propagation-tda"><strong>early-rumor-propagation-tda</strong></a><br/>
-早期谣言传播树的拓扑特征构造与持久同调分析。<br/><br/>
+早期谣言传播树的拓扑特征构造与持久同调分析。<br/><br/><br/>
 <code>TDA</code> <code>Research</code>
 
 </td>
@@ -21,7 +21,7 @@
 
 <sub>AI WORKBENCH</sub><br/>
 <a href="https://github.com/proffitteoy/Iris-Terminal"><strong>Iris-Terminal</strong></a><br/>
-本地优先 AI4MATH 工作台。<br/><br/>
+本地优先 AI4MATH 工作台。<br/><br/><br/><br/>
 <code>Local-first</code> <code>Research Workspace</code>
 
 </td>
@@ -29,7 +29,7 @@
 
 <sub>CAMPUS COMPETITION UI</sub><br/>
 <a href="https://github.com/GDUF-quantitative/ai-data-competitions-ui"><strong>ai-data-competitions-ui</strong></a><br/>
-面向学生竞赛的学院级服务网站。<br/><br/>
+面向学生竞赛的学院级服务网站。<br/><br/><br/><br/>
 <code>Next.js</code> <code>React</code>
 </td>
 <td width="25%" valign="top">
