@@ -11,17 +11,17 @@
 <tr>
 <td width="25%" valign="top">
 
-<sub>RESEARCH ORIGINAL · 论文在投</sub><br/>
+<sub>RESEARCH · 论文在投</sub><br/>
 <a href="https://github.com/proffitteoy/early-rumor-propagation-tda"><strong>early-rumor-propagation-tda</strong></a><br/>
 早期谣言传播树的拓扑特征构造与持久同调分析。<br/><br/>
-<code>TDA</code> <code>Propagation Tree</code> <code>Persistent Homology</code>
+<code>TDA</code> <code>Research</code>
 
 </td>
 <td width="25%" valign="top">
 
 <sub>AI WORKBENCH</sub><br/>
 <a href="https://github.com/proffitteoy/Iris-Terminal"><strong>Iris-Terminal</strong></a><br/>
-本地优先 AI 研究工作台。<br/><br/>
+本地优先 AI4MATH 工作台。<br/><br/>
 <code>Local-first</code> <code>Research Workspace</code>
 
 </td>
@@ -29,15 +29,14 @@
 
 <sub>CAMPUS COMPETITION UI</sub><br/>
 <a href="https://github.com/GDUF-quantitative/ai-data-competitions-ui"><strong>ai-data-competitions-ui</strong></a><br/>
-面向学生竞赛的学院级服务网站与组件体系。<br/><br/>
-<code>Next.js</code> <code>React</code> <code>Tailwind CSS</code>
-
+面向学生竞赛的学院级服务网站。<br/><br/>
+<code>Next.js</code> <code>React</code>
 </td>
 <td width="25%" valign="top">
 
-<sub>TOPOLOGY LIBRARY · 论文在投</sub><br/>
+<sub>RESEARCH · 论文在投</sub><br/>
 <a href="https://github.com/proffitteoy/Topp"><strong>topp</strong></a><br/>
-面向拓扑数据分析的高性能距离计算与精确匹配 Python 库。<br/><br/>
+拓扑数据分析的高速高性能 bottlenek/wasserstein 计算Python 库。<br/><br/>
 <code>TDA</code> <code>Python</code> <code>Exact Matching</code>
 
 </td>
@@ -47,8 +46,8 @@
 
 <sub>OPEN SOURCE CONTRIBUTION</sub><br/>
 <a href="https://github.com/open-ani/animeko"><strong>open-ani/animeko</strong></a><br/>
-Android / Kotlin Multiplatform 调试修复和 CNN 验证码识别算法开发。<br/><br/>
-<code>Kotlin Multiplatform</code> <code>Android</code> <code>PR 协作</code>
+基于 CNN 的验证码识别算法开发。<br/><br/>
+<code>Kotlin Multiplatform</code> <code>Android</code>
 
 </td>
 <td width="50%" colspan="2" valign="middle" align="center">
@@ -60,8 +59,8 @@ Android / Kotlin Multiplatform 调试修复和 CNN 验证码识别算法开发�
 
 <sub>OPEN SOURCE CONTRIBUTION</sub><br/>
 <a href="https://github.com/GUDHI/gudhi-devel"><strong>GUDHI/gudhi-devel</strong></a><br/>
-参与瓶颈距离匹配算法修复与跨平台验证。<br/><br/>
-<code>C++</code> <code>Bottleneck Distance</code> <code>PR 协作</code>
+核心数学算法的正确性漏洞修复与跨平台验证。<br/><br/>
+<code>C++</code> <code>Bottleneck Distance</code> <code>Python</code>
 
 </td>
 </tr>
