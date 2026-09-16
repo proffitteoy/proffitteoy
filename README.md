@@ -13,7 +13,7 @@
 
 <sub>RESEARCH · 论文在投</sub><br/>
 <a href="https://github.com/proffitteoy/early-rumor-propagation-tda"><strong>early-rumor-propagation-tda</strong></a><br/>
-早期谣言传播树的拓扑特征构造与持久同调分析。<br/><br/><br/>
+早期谣言传播树的拓扑特征构造与持续同调分析。<br/><br/><br/>
 <code>TDA</code> <code>Research</code>
 
 </td>
