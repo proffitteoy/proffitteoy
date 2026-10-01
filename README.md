@@ -68,8 +68,3 @@
 
 
 <br/>
-
-
-## Research Infrastructure
-
-- [Research Asset Archaeology](research-assets/README.md)：跨仓库提取 theorem / algorithm / benchmark / negative result / architecture 等可重组研究资产，并维护 reuse graph 与 dead-end registry。公开索引只记录公开来源；私有仓库资产不会在本仓库暴露。
