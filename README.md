@@ -93,8 +93,8 @@
 <td width="25%" valign="top">
 
 <sub>WRITING RESEARCH</sub><br/>
-<a href="https://github.com/proffitteoy/style-compiler"><strong>style-compiler</strong></a><br/>
-将可测量的写作选择转为受语义约束、可复测、可回退的编辑操作。<br/><br/>
+<a href="https://github.com/proffitteoy/Mathematician-Humanizer"><strong>style-compiler</strong></a><br/>
+面向数学工作者的去ai味skill。<br/><br/>
 <code>Python</code> <code>Style Modeling</code>
 
 </td>
