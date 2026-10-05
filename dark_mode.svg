@@ -7,11 +7,11 @@
 text,tspan{white-space:pre}
 .ascii{font-family:ConsolasFallback,Consolas,monospace;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
 .terminal{font-family:ConsolasFallback,Consolas,'Microsoft YaHei UI','Noto Sans Mono CJK SC',monospace}
-.fg{fill:#d0d0d0}.key{fill:#ffa657;font-weight:700}.value{fill:#a5d6ff}.addColor{fill:#3fb950}.delColor{fill:#f85149}.cc{fill:#6e7681}
+.fg{fill:#d0d0d0}.key{fill:#e7b47f;font-weight:700}.value{fill:#8cc6c0}.addColor{fill:#3fb950}.delColor{fill:#f85149}.cc{fill:#6e7681}
 </style>
-<rect width="1200" height="640" rx="15" fill="#111111"/>
-<rect x="1" y="1" width="1198" height="638" rx="14" fill="none" stroke="#333333"/>
-<line x1="700" y1="18" x2="700" y2="622" stroke="#333333"/>
+<rect width="1200" height="640" rx="15" fill="#0f141a"/>
+<rect x="1" y="1" width="1198" height="638" rx="14" fill="none" stroke="#30363d"/>
+<line x1="700" y1="18" x2="700" y2="622" stroke="#30363d"/>
 <text class="ascii fg" x="20" y="20" font-size="10">
 <tspan x="20" y="20.00"/>
 <tspan x="20" y="30.55"/>

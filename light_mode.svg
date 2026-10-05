@@ -7,7 +7,7 @@
 text,tspan{white-space:pre}
 .ascii{font-family:ConsolasFallback,Consolas,monospace;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
 .terminal{font-family:ConsolasFallback,Consolas,'Microsoft YaHei UI','Noto Sans Mono CJK SC',monospace}
-.fg{fill:#242424}.key{fill:#953800;font-weight:700}.value{fill:#0550ae}.addColor{fill:#1a7f37}.delColor{fill:#cf222e}.cc{fill:#8c959f}
+.fg{fill:#242424}.key{fill:#9a580c;font-weight:700}.value{fill:#287e7b}.addColor{fill:#1a7f37}.delColor{fill:#cf222e}.cc{fill:#8c959f}
 </style>
 <rect width="1200" height="640" rx="15" fill="#ffffff"/>
 <rect x="1" y="1" width="1198" height="638" rx="14" fill="none" stroke="#d0d0d0"/>
