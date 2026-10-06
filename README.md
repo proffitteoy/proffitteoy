@@ -5,9 +5,9 @@
   </picture>
 </a>
 
-<sub>点击命令展开 / 收起，打开新命令会收起上一条；也可用 Tab 聚焦后按 Enter 或空格。</sub>
+<sub>点击命令或聚焦后按 Enter / 空格查看输出；读完简介后，在末尾继续输入下一条命令。</sub>
 
-<details name="terminal-output">
+<details>
 <summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-about-dark.svg">
@@ -29,9 +29,10 @@
 - 目前专注于拓扑数据分析，拥有几篇纯数学/应用数学/计算机科学方面的论文。
 - 是一系列拓扑数据分析算法库的作者/合作者。
 
-</details>
+<details>
+<summary><kbd>Enter ↵</kbd> · 下一条命令</summary>
 
-<details name="terminal-output">
+<details>
 <summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-projects-dark.svg">
@@ -133,6 +134,8 @@
 </tr>
 </table>
 
+</details>
+</details>
 </details>
 
 <br/>

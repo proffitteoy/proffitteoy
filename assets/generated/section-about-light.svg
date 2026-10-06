@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
   <title id="title">01 · cat ./about.md</title>
-  <desc id="desc">命令逐字输入后，光标闪烁等待点击或回车。</desc>
+  <desc id="desc">逐字输入简介命令后，光标结束等待，命令作为终端历史保留；下一条由读者手动触发。</desc>
   <style>
     @keyframes type-command {
       from { width: 0; }
@@ -14,8 +14,12 @@
       0%, 49% { opacity: 1; }
       50%, 100% { opacity: 0; }
     }
+    @keyframes finish-command {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
     .typing-window { animation: type-command 2.1s steps(14, end) .6s both; }
-    .cursor-position { animation: move-cursor 2.1s steps(14, end) .6s both; }
+    .cursor-position { opacity: 0; animation: move-cursor 2.1s steps(14, end) .6s both, finish-command 3.6s step-end both; }
     .cursor { animation: wait-cursor 1s step-end 2.7s infinite; }
     @media (prefers-reduced-motion: reduce) {
       .typing-window, .cursor-position, .cursor { animation: none; }
