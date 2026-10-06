@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
   <title id="title">01 · cat ./about.md</title>
-  <desc id="desc">命令逐字输入后，光标闪烁等待点击或回车；右侧为装饰性持续同调条形码，不代表研究数据。</desc>
+  <desc id="desc">命令逐字输入后，光标闪烁等待点击或回车。</desc>
   <style>
     @keyframes type-command {
       from { width: 0; }
@@ -17,13 +17,8 @@
     .typing-window { animation: type-command 2.1s steps(14, end) .6s both; }
     .cursor-position { animation: move-cursor 2.1s steps(14, end) .6s both; }
     .cursor { animation: wait-cursor 1s step-end 2.7s infinite; }
-    @keyframes reveal {
-      0%, 15%, 100% { stroke-dashoffset: 42; opacity: .55; }
-      50%, 85% { stroke-dashoffset: 0; opacity: 1; }
-    }
-    .bar { stroke-dasharray: 240; animation: reveal 8s ease-in-out infinite; }
     @media (prefers-reduced-motion: reduce) {
-      .typing-window, .cursor-position, .cursor, .bar { animation: none; }
+      .typing-window, .cursor-position, .cursor { animation: none; }
     }
   </style>
   <defs>
@@ -38,9 +33,4 @@
     <rect class="cursor" x="92" y="25" width="8" height="20" fill="#e7b47f"/>
   </g>
   <line x1="0" y1="73" x2="1200" y2="73" stroke="#30363d"/>
-  <line class="bar" x1="965" x2="1170" y1="17" y2="17" stroke="#e7b47f" stroke-width="3" stroke-linecap="round" style="animation-delay: 0.0s"/>
-  <line class="bar" x1="875" x2="1060" y1="27" y2="27" stroke="#7dbbb4" stroke-width="3" stroke-linecap="round" style="animation-delay: 0.2s"/>
-  <line class="bar" x1="905" x2="1140" y1="37" y2="37" stroke="#e7b47f" stroke-width="3" stroke-linecap="round" style="animation-delay: 0.4s"/>
-  <line class="bar" x1="995" x2="1170" y1="47" y2="47" stroke="#7dbbb4" stroke-width="3" stroke-linecap="round" style="animation-delay: 0.6s"/>
-  <line class="bar" x1="850" x2="1030" y1="57" y2="57" stroke="#e7b47f" stroke-width="3" stroke-linecap="round" style="animation-delay: 0.8s"/>
 </svg>

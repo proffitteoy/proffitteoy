@@ -5,9 +5,9 @@
   </picture>
 </a>
 
-<sub>点击命令展开 / 收起；也可用 Tab 聚焦后按 Enter 或空格。</sub>
+<sub>点击命令展开 / 收起，打开新命令会收起上一条；也可用 Tab 聚焦后按 Enter 或空格。</sub>
 
-<details>
+<details name="terminal-output">
 <summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-about-dark.svg">
@@ -31,7 +31,7 @@
 
 </details>
 
-<details>
+<details name="terminal-output">
 <summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-projects-dark.svg">
