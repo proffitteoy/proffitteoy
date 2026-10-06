@@ -5,7 +5,7 @@
   </picture>
 </a>
 
-<sub>点击命令或聚焦后按 Enter / 空格查看输出；读完简介后，在末尾继续输入下一条命令。</sub>
+<sub>点击命令或聚焦后按 Enter / 空格查看输出。</sub>
 
 <details>
 <summary>
@@ -28,9 +28,6 @@
 - 我领导本校的人工智能和量化投资组织，重点关注学术平台构建。
 - 目前专注于拓扑数据分析，拥有几篇纯数学/应用数学/计算机科学方面的论文。
 - 是一系列拓扑数据分析算法库的作者/合作者。
-
-<details>
-<summary><kbd>Enter ↵</kbd> · 下一条命令</summary>
 
 <details>
 <summary>
@@ -134,7 +131,6 @@
 </tr>
 </table>
 
-</details>
 </details>
 </details>
 
