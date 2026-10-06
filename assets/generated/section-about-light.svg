@@ -1,19 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
   <title id="title">01 · cat ./about.md</title>
-  <desc id="desc">终端章节提示与装饰性持续同调条形码，不代表研究数据。</desc>
+  <desc id="desc">命令逐字输入后，光标闪烁等待点击或回车；右侧为装饰性持续同调条形码，不代表研究数据。</desc>
   <style>
+    @keyframes type-command {
+      from { width: 0; }
+      to { width: 168px; }
+    }
+    @keyframes move-cursor {
+      from { transform: translateX(0); }
+      to { transform: translateX(168px); }
+    }
+    @keyframes wait-cursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .typing-window { animation: type-command 2.1s steps(14, end) .6s both; }
+    .cursor-position { animation: move-cursor 2.1s steps(14, end) .6s both; }
+    .cursor { animation: wait-cursor 1s step-end 2.7s infinite; }
     @keyframes reveal {
       0%, 15%, 100% { stroke-dashoffset: 42; opacity: .55; }
       50%, 85% { stroke-dashoffset: 0; opacity: 1; }
     }
     .bar { stroke-dasharray: 240; animation: reveal 8s ease-in-out infinite; }
     @media (prefers-reduced-motion: reduce) {
-      .bar { animation: none; }
+      .typing-window, .cursor-position, .cursor, .bar { animation: none; }
     }
   </style>
+  <defs>
+    <clipPath id="command-clip">
+      <rect class="typing-window" x="92" y="20" width="168" height="30"/>
+    </clipPath>
+  </defs>
   <text x="0" y="42" font-family="Consolas,monospace" font-size="18" fill="#768390">01</text>
   <text x="60" y="42" font-family="Consolas,monospace" font-size="22" fill="#287e7b">❯</text>
-  <text x="92" y="42" font-family="Consolas,monospace" font-size="21" fill="#24292f">cat ./about.md</text>
+  <text x="92" y="42" font-family="Consolas,monospace" font-size="21" fill="#24292f" textLength="168" lengthAdjust="spacingAndGlyphs" clip-path="url(#command-clip)">cat ./about.md</text>
+  <g class="cursor-position" transform="translate(168 0)">
+    <rect class="cursor" x="92" y="25" width="8" height="20" fill="#9a580c"/>
+  </g>
   <line x1="0" y1="73" x2="1200" y2="73" stroke="#d0d7de"/>
   <line class="bar" x1="965" x2="1170" y1="17" y2="17" stroke="#9a580c" stroke-width="3" stroke-linecap="round" style="animation-delay: 0.0s"/>
   <line class="bar" x1="875" x2="1060" y1="27" y2="27" stroke="#287e7b" stroke-width="3" stroke-linecap="round" style="animation-delay: 0.2s"/>
