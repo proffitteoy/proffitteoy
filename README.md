@@ -5,10 +5,15 @@
   </picture>
 </a>
 
+<sub>点击命令展开 / 收起；也可用 Tab 聚焦后按 Enter 或空格。</sub>
+
+<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-about-dark.svg">
-  <img src="./assets/generated/section-about-light.svg" alt="01 · cat ./about.md" width="100%">
+  <img src="./assets/generated/section-about-light.svg" alt="01 · cat ./about.md" width="94%">
 </picture>
+</summary>
 
 ## Hi, I'm Xuanliang Li 👋
 
@@ -24,10 +29,15 @@
 - 目前专注于拓扑数据分析，拥有几篇纯数学/应用数学/计算机科学方面的论文。
 - 是一系列拓扑数据分析算法库的作者/合作者。
 
+</details>
+
+<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-projects-dark.svg">
-  <img src="./assets/generated/section-projects-light.svg" alt="02 · ls ./projects/" width="100%">
+  <img src="./assets/generated/section-projects-light.svg" alt="02 · ls ./projects/" width="94%">
 </picture>
+</summary>
 
 <table>
 <tr>
@@ -123,5 +133,6 @@
 </tr>
 </table>
 
+</details>
 
 <br/>
