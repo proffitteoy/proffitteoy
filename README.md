@@ -1,7 +1,7 @@
 <a href="https://nothing-new.icu/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/dark_mode.svg">
-    <img src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/light_mode.svg" alt="proffitteoy 终端风格个人简介" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/dark_mode.svg?v=3454697-restore">
+    <img src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/light_mode.svg?v=3454697-restore" alt="proffitteoy 终端风格个人简介" width="100%">
   </picture>
 </a>
 
@@ -10,8 +10,8 @@
 <details>
 <summary>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-about-dark.svg">
-  <img src="./assets/generated/section-about-light.svg" alt="01 · cat ./about.md" width="94%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-about-dark.svg?v=3454697-restore">
+  <img src="./assets/generated/section-about-light.svg?v=3454697-restore" alt="01 · cat ./about.md" width="94%">
 </picture>
 </summary>
 
@@ -32,8 +32,8 @@
 <details>
 <summary>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-projects-dark.svg">
-  <img src="./assets/generated/section-projects-light.svg" alt="02 · ls ./projects/" width="94%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-projects-dark.svg?v=3454697-restore">
+  <img src="./assets/generated/section-projects-light.svg?v=3454697-restore" alt="02 · ls ./projects/" width="94%">
 </picture>
 </summary>
 
