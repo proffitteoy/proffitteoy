@@ -37,99 +37,74 @@
 </picture>
 </summary>
 
-<table>
-<tr>
-<td width="25%" valign="top">
-
-<sub>RESEARCH · 论文在投</sub><br/>
-<a href="https://github.com/proffitteoy/early-rumor-propagation-tda"><strong>early-rumor-propagation-tda</strong></a><br/>
-早期谣言传播树的拓扑特征构造与持续同调分析。<br/><br/><br/>
-<code>TDA</code> <code>Research</code>
-
-</td>
-<td width="25%" valign="top">
-
-<sub>RESEARCH · 论文在写</sub><br/>
-<a href="https://github.com/proffitteoy/anime-avatar-runtime"><strong>anime-avatar-runtime</strong></a><br/>
-二次元角色的持续生成、状态保持与异常恢复研究。<br/><br/><br/>
-<code>Python</code> <code>Video Generation</code>
-
-</td>
-<td width="25%" valign="top">
-
-<sub>RESEARCH · 论文在写</sub><br/>
-<a href="https://github.com/proffitteoy/homology-operator"><strong>homology-operator</strong></a>（下游）<br/>
-<a href="https://github.com/proffitteoy/homology-operator-lab"><strong>homology-operator-lab</strong></a>（上游）<br/>
-边界矩阵驱动的同调算子，联合读取持续同调与几何信息。<br/><br/>
-<code>TDA</code> <code>F₂ Homology</code>
-</td>
-<td width="25%" valign="top">
-
-<sub>RESEARCH · 送论文外审</sub><br/>
-<a href="https://github.com/proffitteoy/Topp"><strong>topp</strong></a><br/>
-拓扑数据分析的高速高性能 bottlenek/wasserstein 计算Python 库。<br/><br/>
-<code>TDA</code> <code>Python</code> <code>Exact Matching</code>
-
-</td>
-</tr>
-<tr>
-<td width="25%" valign="top">
-
-<sub>OPEN SOURCE CONTRIBUTION</sub><br/>
-<a href="https://github.com/open-ani/animeko"><strong>open-ani/animeko</strong></a><br/>
-基于 CNN 的验证码识别算法开发。<br/><br/>
-<code>Kotlin Multiplatform</code> <code>Android</code>
-
-</td>
-<td width="50%" colspan="2" valign="middle" align="center">
-
-<img src="./assets/generated/profile-studio.png" alt="proffitteoy 个人主页主视觉" width="100%" />
-
-</td>
-<td width="25%" valign="top">
-
-<sub>OPEN SOURCE CONTRIBUTION</sub><br/>
-<a href="https://github.com/GUDHI/gudhi-devel"><strong>GUDHI/gudhi-devel</strong></a><br/>
-核心数学算法的正确性漏洞修复与跨平台验证。<br/><br/>
-<code>C++</code> <code>Bottleneck Distance</code> <code>Python</code>
-
-</td>
-</tr>
-<tr>
-<td width="25%" valign="top">
-
-<sub>AI WORKBENCH</sub><br/>
-<a href="https://github.com/proffitteoy/Iris-Terminal"><strong>Iris-Terminal</strong></a><br/>
-本地优先 AI4MATH 工作台。<br/><br/><br/><br/>
-<code>Local-first</code> <code>Research Workspace</code>
-
-</td>
-<td width="25%" valign="top">
-
-<sub>CAMPUS COMPETITION UI</sub><br/>
-<a href="https://github.com/GDUF-quantitative/ai-data-competitions-ui"><strong>ai-data-competitions-ui</strong></a><br/>
-面向学生竞赛的学院级服务网站。<br/><br/><br/><br/>
-<code>Next.js</code> <code>React</code>
-
-</td>
-<td width="25%" valign="top">
-
-<sub>TDA LIBRARY</sub><br/>
-<a href="https://github.com/Aequiludium/cocycle-rs"><strong>cocycle-rs</strong></a><br/>
-纯 Rust 拓扑数据分析库，支持持续同调与持久图距离。<br/><br/><br/>
-<code>Rust</code> <code>TDA</code> <code>Persistence</code>
-
-</td>
-<td width="25%" valign="top">
-
-<sub>WRITING RESEARCH</sub><br/>
-<a href="https://github.com/proffitteoy/Mathematician-Humanizer"><strong>style-compiler</strong></a><br/>
-面向数学工作者的去ai味skill。<br/><br/>
-<code>Python</code> <code>Style Modeling</code>
-
-</td>
-</tr>
-</table>
+<pre>
+projects/
+|
++-- research/
+|   +-- <a href="https://github.com/proffitteoy/early-rumor-propagation-tda"><strong>early-rumor-propagation-tda</strong></a>
+|   |   RESEARCH · 论文在投
+|   |   早期谣言传播树的拓扑特征构造与持
+|   |   续同调分析。
+|   |   TDA Research
+|
+|   `-- <a href="https://github.com/proffitteoy/anime-avatar-runtime"><strong>anime-avatar-runtime</strong></a>
+|       RESEARCH · 论文在写
+|       二次元角色的持续生成、状态保持与
+|       异常恢复研究。
+|       Python Video Generation
+|
++-- topology/
+|   +-- <a href="https://github.com/proffitteoy/homology-operator"><strong>homology-operator</strong></a>（下游）
+|   |   <a href="https://github.com/proffitteoy/homology-operator-lab"><strong>homology-operator-lab</strong></a>（上游）
+|   |   RESEARCH · 论文在写
+|   |   边界矩阵驱动的同调算子，联合读取
+|   |   持续同调与几何信息。
+|   |   TDA F₂ Homology
+|
+|   +-- <a href="https://github.com/proffitteoy/Topp"><strong>topp</strong></a>
+|   |   RESEARCH · 送论文外审
+|   |   拓扑数据分析的高速高性能
+|   |   bottlenek/wasserstein 计算Python
+|   |   库。
+|   |   TDA Python Exact Matching
+|
+|   `-- <a href="https://github.com/Aequiludium/cocycle-rs"><strong>cocycle-rs</strong></a>
+|       TDA LIBRARY
+|       纯 Rust 拓扑数据分析库，支持持续
+|       同调与持久图距离。
+|       Rust TDA Persistence
+|
++-- workbench/
+|   +-- <a href="https://github.com/proffitteoy/Iris-Terminal"><strong>Iris-Terminal</strong></a>
+|   |   AI WORKBENCH
+|   |   本地优先 AI4MATH 工作台。
+|   |   Local-first Research Workspace
+|
+|   +-- <a href="https://github.com/GDUF-quantitative/ai-data-competitions-ui"><strong>ai-data-competitions-ui</strong></a>
+|   |   CAMPUS COMPETITION UI
+|   |   面向学生竞赛的学院级服务网站。
+|   |   Next.js React
+|
+|   `-- <a href="https://github.com/proffitteoy/Mathematician-Humanizer"><strong>style-compiler</strong></a>
+|       WRITING RESEARCH
+|       面向数学工作者的去ai味skill。
+|       Python Style Modeling
+|
++-- contributions/
+|   +-- <a href="https://github.com/open-ani/animeko"><strong>open-ani/animeko</strong></a>
+|   |   OPEN SOURCE CONTRIBUTION
+|   |   基于 CNN 的验证码识别算法开发。
+|   |   Kotlin Multiplatform Android
+|
+|   `-- <a href="https://github.com/GUDHI/gudhi-devel"><strong>GUDHI/gudhi-devel</strong></a>
+|       OPEN SOURCE CONTRIBUTION
+|       核心数学算法的正确性漏洞修复与跨
+|       平台验证。
+|       C++ Bottleneck Distance Python
+|
+`-- assets/
+    `-- <a href="./assets/generated/profile-studio.png">profile-studio.png</a>
+</pre>
 
 </details>
 </details>

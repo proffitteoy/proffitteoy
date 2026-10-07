@@ -1,101 +1,125 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
-<title id="title">proffitteoy terminal profile</title>
-<desc id="desc">Monochrome ASCII half-body portrait, profile details, contact links, and automatically updated GitHub statistics.</desc>
-<style>
-@font-face{font-family:ConsolasFallback;src:local('Consolas');font-display:swap;size-adjust:109%}
-text,tspan{white-space:pre}
-.ascii{font-family:ConsolasFallback,Consolas,monospace;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
-.terminal{font-family:ConsolasFallback,Consolas,'Microsoft YaHei UI','Noto Sans Mono CJK SC',monospace}
-.fg{fill:#d0d0d0}.key{fill:#e7b47f;font-weight:700}.value{fill:#8cc6c0}.addColor{fill:#3fb950}.delColor{fill:#f85149}.cc{fill:#6e7681}
-</style>
-<rect width="1200" height="640" rx="15" fill="#0f141a"/>
-<rect x="1" y="1" width="1198" height="638" rx="14" fill="none" stroke="#30363d"/>
-<line x1="700" y1="18" x2="700" y2="622" stroke="#30363d"/>
-<text class="ascii fg" x="20" y="20" font-size="10">
-<tspan x="20" y="20.00"/>
-<tspan x="20" y="30.55"/>
-<tspan x="20" y="41.10"/>
-<tspan x="20" y="51.65">                                                ||||hhhhMM|h|||\|</tspan>
-<tspan x="20" y="62.20">                                             ||HHHMMMhhhMMMMHHHMMM\\</tspan>
-<tspan x="20" y="72.75">                                         \ |/GHMMMMMMMMMMMMMMMMHHMMMH\</tspan>
-<tspan x="20" y="83.30">                                       |/||HHGHHHHHHHHHHHHH\GHhhMHHMMH|</tspan>
-<tspan x="20" y="93.85">                                      /||Gh3MGGGGSGGGGGGGGGhHSh5hMHHHHHG\</tspan>
-<tspan x="20" y="104.40">                                    |\||#HHHhMShMGGGGSSHSG333HSGGGGGGGGHS|</tspan>
-<tspan x="20" y="114.95">                                   |,/|9#####9GMHHhGMMH3SSMGSGS9##SSSSSSGS</tspan>
-<tspan x="20" y="125.50">                                 ||/9@B#####99##99##S##G#9#9#9##999#####S#|</tspan>
-<tspan x="20" y="136.05">                                //#@@B#999999###########99######9BSB999####</tspan>
-<tspan x="20" y="146.60">                               /|B#9&amp;9999####SSSSSGGGGGGBSGSSS##9@  SBB999B|</tspan>
-<tspan x="20" y="157.15">                                \S#B9999#SS#9GHMMM\hhMM\\SMHGGGS9#   \&amp;999B|</tspan>
-<tspan x="20" y="167.70">                                   |99B#GGSS|\\33\\\53|| -\3\\GGB|    @&amp;BB&amp;#</tspan>
-<tspan x="20" y="178.25">                                  /B9B9GH#||||\\||\\||||||\\\\\5\\    \-</tspan>
-<tspan x="20" y="188.80">                                 |&amp;B&amp;BSSS||//||\|||\|. |||||\\      |      |</tspan>
-<tspan x="20" y="199.35">                                 \9B&amp;&amp;&amp;GM||||BS\|     |\\9#|\|||||||    |#B@|</tspan>
-<tspan x="20" y="209.90">                                |9#9&amp;@9h3h\\\|||\     . \|||||||hMB|    #@B&amp;|</tspan>
-<tspan x="20" y="220.45">                               |SGS9&amp;&amp;Ghhh\ \\||         \\\\|||3H|||/  #&amp;BBB</tspan>
-<tspan x="20" y="231.00">                                   #&amp;9HMhh|\     |           |/|/|||#B9#B&amp;BB@|</tspan>
-<tspan x="20" y="241.55">                                    |#GHMh/|                 .||#@@h39&amp;&amp;&amp;&amp;BB&amp;|</tspan>
-<tspan x="20" y="252.10">                                    ##SGG/55||   |   |     .||r\SSSh3h9&amp;B&amp;BB9B</tspan>
-<tspan x="20" y="262.65">                                  |#S#GS#|553h||||      |||srrX\M3hhh3h9&amp;BBB9B|</tspan>
-<tspan x="20" y="273.20">                                 |B###S|\3533|MMh|||||||XXX|||B&amp;GM3\hh33\BBBB9B|</tspan>
-<tspan x="20" y="283.75">                                |B999#9|i553\i\|2\|HM|#GS9B@@@&amp;&amp;#MMhMh333M#B999B|</tspan>
-<tspan x="20" y="294.30">                               |B##99#9|:\|2\:;\X\|MhM@@&amp;9@&amp;&amp;&amp;&amp;&amp;BHMhhhh3333\999#9|</tspan>
-<tspan x="20" y="304.85">                              |S#####SS5|;\\\,.-i\||9&amp;@B|\B&amp;&amp;&amp;&amp;&amp;&amp;@##G|Hh35553\#9#9\</tspan>
-<tspan x="20" y="315.40">                              ||#S###S|5||||||\/|||;\\\|S##&amp;&amp;&amp;&amp;&amp;#\@&amp;&amp;B99#SGHh3hHS#B\</tspan>
-<tspan x="20" y="325.95">                             |##GSSSSG||i;|/||SS@@&amp;S##|9B9B&amp;&amp;&amp;&amp;&amp;| \9##9B&amp;B9##SGG|S\9#\</tspan>
-<tspan x="20" y="336.50">                           |G#|\GGSSSG\|||/#9######BBB@@@@B999##/ -\##\\\\||######| H9\|</tspan>
-<tspan x="20" y="347.05">                        |/#G|||5\H\\GH\|||||\S\\\HSSSGSBB9SS###9|||\H|| ||S9#99###9|   |||</tspan>
-<tspan x="20" y="357.60">                       /S|\| \S52|\|B9S#9B99|\|/|||\\HSSS||\|\\\||||||/||#999999999#    \|\</tspan>
-<tspan x="20" y="368.15">                     |S|| |   |||/||&amp;&amp;&amp;&amp;9&amp;|\&amp;S&amp;|\|\S\|\||  ||/||||||||\|MSB99999999#      |\\</tspan>
-<tspan x="20" y="378.70">                    /9| |       h 2SB#B99| \&amp;###\||99|      \\\\S|/|\|\\S9999999##BS       \\|</tspan>
-<tspan x="20" y="389.25">                    B| /         2299B9S\\ |@9#/||S|||            \||@\\\9999B99#S#|3        \#</tspan>
-<tspan x="20" y="399.80">                    S\|         5X\BB#\|\  \SB|||S||/|||          |@|\  |SGS9B999&amp;#5          \|</tspan>
-<tspan x="20" y="410.35">                               |2X|B#2||\    |#S&amp;|/S|||        |||B#|| ||32539B9B@\</tspan>
-<tspan x="20" y="420.90">                               |2|BBh||  |  /9BB9B@||9|    ||||  |&amp;| \//h522A\B9B@\</tspan>
-<tspan x="20" y="431.45">                              |\SBB|5|    |\#B99BB9@@#9|/||     |S/| ,|/32222\B9B@S</tspan>
-<tspan x="20" y="442.00">                              ||B9#55|.    |&amp;9BBBB@&amp;9B&amp;S|       |@| ,:||322253BBB&amp;B</tspan>
-<tspan x="20" y="452.55">                             |99#9h523|,,./BBBBB&amp;&amp;#@&amp;BB9|||    ./@|,::/|552253#B9B&amp;\</tspan>
-<tspan x="20" y="463.10">                           /|9##9S|H33G\||@&amp;BBB@9|;\9@&amp;B&amp;B&amp;||;:|&amp;B|:/|B|522253HB99B&amp;|</tspan>
-<tspan x="20" y="473.65">                         /|99###9S9BBB|||&amp;BBB&amp;B|::;:;\9@BB9B&amp;|\|@B//|9#|HHHS#/G#999B&amp;</tspan>
-<tspan x="20" y="484.20">                       ||#9S|GSS####||  |&amp;B&amp;@9|||H|H||\\B&amp;BBB&amp;|.\\9&amp;&amp;#9&amp;B99B||&amp;#9999B&amp;|</tspan>
-<tspan x="20" y="494.75">                     ||##S|23S#99SS||  |@B&amp;&amp;SS&amp;@@@@@@@&amp;#SB&amp;&amp;B&amp;|   \\#######9||&amp;#G9999B&amp;|</tspan>
-<tspan x="20" y="505.30">                   |GSSS|322G#9#SS||  |B&amp;@&amp;&amp;S&amp;&amp;BBBBB99B@@&amp;&amp;&amp;&amp;&amp;&amp;|   \SSS###9B##B9GS9999B@\</tspan>
-<tspan x="20" y="515.85">                 /HSGS||252MG##SS9|| /@@9S&amp;@@&amp;BB9\&amp;BBBBBBB&amp;@&amp;#B@|  \\#SS##S9B99BGH#99999&amp;9\</tspan>
-<tspan x="20" y="526.40">               |/SGGS|22523HH9###S|||B\|||B9#9B\\|||BBBBB99B&amp;S||\|.|\SSSS#####9BGHH#9##99BB|</tspan>
-<tspan x="20" y="536.95">             //|GGS|2A55A5MM9B#S9||||::|S#B#S#9|/||/B9GGHHHS9B#|||\:\\9S#####9B&amp;SHHH#9###99B#\</tspan>
-<tspan x="20" y="547.50">           /|H|HS||AA55A233#&amp;B9S9||;|||&amp;S9@B&amp;&amp;&amp;@||BB@&amp;&amp;&amp;BBB&amp;&amp;&amp;&amp;9#||;\-9#####9BB&amp;9MHMMS9###9999S|</tspan>
-<tspan x="20" y="558.05">          /|||M#|2XA25AA52|BBBB9/||/B&amp;&amp;G#@&amp;BB&amp;B#||@S#&amp;BBBBB&amp;@&amp;@#S&amp;9||\9###9BBBBBBHMMh3S9#######S\|</tspan>
-<tspan x="20" y="568.60">        |/MHH/#|XXAA2AA2A|9B999&amp;||@BB9S9@&amp;&amp;&amp;&amp;B|9|\&amp;BM#&amp;&amp;&amp;&amp;&amp;&amp;&amp;@@&amp;S#9B&amp;|\9#9BBBB9BB#hhM35\9######SGG\</tspan>
-<tspan x="20" y="579.15">       |shHHG/5XXXXAXA2X|99B#9B9|9BB9G9&amp;BBB&amp;9|B#3HBB9\B&amp;BBBB&amp;B&amp;@&amp;\99&amp;|\B9999999B9B\h3h32\9###SSSGHHH|</tspan>
-<tspan x="20" y="589.70">      |r|HMGSAXXXXAs|AXXS99B9#B||@B9GB&amp;BBB&amp;9|9B|5MB9&amp;S|&amp;BBBB&amp;BB&amp;@B\9&amp;|\99B999#9B9B#335352\9SSSSSSGMMH\</tspan>
-<tspan x="20" y="600.25">      |rMMGSXsXXX|||XXs|9#B&amp;|\||BBSHB&amp;BBBBB|9B#hhMB9#&amp;HS&amp;BBBB&amp;BB&amp;@B\#@\\S\S9999999&amp;\52232A\9SSSSGGHMhM\</tspan>
-<tspan x="20" y="610.80">     |i|h|#AsXs|| ||As|9#999|||#9HM9&amp;BBBBBH9B#ShM/B9#99MBBBBB&amp;BBB&amp;@&amp;|9#\| |B#99999B952A252A\9SSSGGGMMhMH|</tspan>
-<tspan x="20" y="621.35">     |i\/||rX||   |Ass|9##99||##HM#&amp;BB&amp;B&amp;GSB#9SMM/BB#SBSG&amp;BBB&amp;&amp;BBB&amp;@&amp;S9|\|\9999999B&amp;\2AA22AX\9SSGGGHMMhh|</tspan>
-</text>
-<text class="terminal fg" x="720" y="28" font-size="15.4">
-<tspan x="720" y="28" class="key">proffitteoy@github</tspan><tspan class="cc"> ─────────────────────────</tspan>
-<tspan x="720" y="54" class="cc">. </tspan><tspan class="key">Major</tspan><tspan class="cc"> .......................... </tspan><tspan x="1180" text-anchor="end" class="value">金融数学专业本科生</tspan>
-<tspan x="720" y="78" class="cc">. </tspan><tspan class="key">Goal</tspan><tspan class="cc"> .............................. </tspan><tspan x="1180" text-anchor="end" class="value">应用数学研究生</tspan>
-<tspan x="720" y="102" class="cc">. </tspan><tspan class="key">Focus</tspan><tspan class="cc"> ..................... </tspan><tspan x="1180" text-anchor="end" class="value">数学建模 · 拓扑数据分析</tspan>
-<tspan x="720" y="126" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">AI 系统 · 开源工程</tspan>
-<tspan x="720" y="150" class="cc">. </tspan><tspan class="key">Side</tspan><tspan class="cc"> ........................... </tspan><tspan x="1180" text-anchor="end" class="value">可能还是个二次元？</tspan>
-<tspan x="720" y="188" class="key">- Languages</tspan><tspan class="cc"> ───────────────────────────</tspan>
-<tspan x="720" y="212" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>
-<tspan x="720" y="236" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">Python · TypeScript · C++ · Kotlin</tspan>
-<tspan x="720" y="260" class="cc">. </tspan><tspan class="key">Languages.Computer</tspan>
-<tspan x="720" y="284" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">HTML · CSS · Markdown · LaTeX · YAML</tspan>
-<tspan x="720" y="308" class="cc">. </tspan><tspan class="key">Languages.Real</tspan><tspan class="cc"> .................. </tspan><tspan x="1180" text-anchor="end" class="value">中文 · English</tspan>
-<tspan x="720" y="346" class="key">- Contact</tspan><tspan class="cc"> ─────────────────────────────</tspan>
-<tspan x="720" y="370" class="cc">. </tspan><tspan class="key">Website</tspan><tspan class="cc"> ........................ </tspan><tspan x="1180" text-anchor="end" class="value">nothing-new.icu</tspan>
-<tspan x="720" y="394" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc"> .................... </tspan><tspan x="1180" text-anchor="end" class="value">proffitteoy@gmail.com</tspan>
-<tspan x="720" y="418" class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc"> ............................. </tspan><tspan x="1180" text-anchor="end" class="value">proffitteoy</tspan>
-<tspan x="720" y="442" class="cc">. </tspan><tspan class="key">FriendLink</tspan><tspan class="cc"> .................. </tspan><tspan x="1180" text-anchor="end" class="value">欢迎参观 · 欢迎提友链</tspan>
-<tspan x="720" y="480" class="key">- GitHub Stats</tspan><tspan class="cc"> ─────────────────────────</tspan>
-<tspan x="720" y="504" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc" id="repo_data_dots"> ........................................ </tspan><tspan x="1180" text-anchor="end" class="value" id="repo_data">33</tspan>
-<tspan x="720" y="526" class="cc">. </tspan><tspan class="key">Contributed</tspan><tspan class="cc" id="contrib_data_dots"> ................................. </tspan><tspan x="1180" text-anchor="end" class="value" id="contrib_data">51</tspan>
-<tspan x="720" y="548" class="cc">. </tspan><tspan class="key">Stars</tspan><tspan class="cc" id="star_data_dots"> ........................................ </tspan><tspan x="1180" text-anchor="end" class="value" id="star_data">72</tspan>
-<tspan x="720" y="570" class="cc">. </tspan><tspan class="key">Commits</tspan><tspan class="cc" id="commit_data_dots"> ................................... </tspan><tspan x="1180" text-anchor="end" class="value" id="commit_data">1,394</tspan>
-<tspan x="720" y="592" class="cc">. </tspan><tspan class="key">Followers</tspan><tspan class="cc" id="follower_data_dots"> .................................... </tspan><tspan x="1180" text-anchor="end" class="value" id="follower_data">64</tspan>
-<tspan x="720" y="614" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan><tspan class="cc" id="loc_data_dots"> ............. </tspan><tspan x="1180" text-anchor="end" class="value" id="loc_data">15,431,606</tspan>
-<tspan x="1180" y="634" text-anchor="end"><tspan class="cc">( </tspan><tspan class="addColor" id="loc_add">21,935,549</tspan><tspan class="addColor">++</tspan><tspan class="cc"> / </tspan><tspan class="delColor" id="loc_del">6,503,943</tspan><tspan class="delColor">--</tspan><tspan class="cc"> )</tspan></tspan>
-</text></svg>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1200" height="1152" viewBox="0 0 1200 1152" role="img" aria-labelledby="title desc">
+  <ns0:title id="title">proffitteoy ASCII research profile</ns0:title>
+  <ns0:desc id="desc">Enlarged ASCII portrait, research profile and contact details; languages and automatically updated GitHub statistics follow below.</ns0:desc>
+  <ns0:style>text,tspan{white-space:pre}
+.ascii{font-family:Consolas,'Liberation Mono',monospace;fill:#cfb89e;text-rendering:geometricPrecision}
+.terminal{font-family:Consolas,'Microsoft YaHei UI','Noto Sans Mono CJK SC',monospace}
+.fg{fill:#c9d1d9}.key{fill:#e7b47f}.value{fill:#8cc6c0}.cc{fill:#768390}.dots{display:none}
+.addColor{fill:#3fb950}.delColor{fill:#f85149}</ns0:style>
+  <ns0:rect width="1200" height="1152" rx="12" fill="#0f141a"/>
+  <ns0:rect x="1" y="1" width="1198" height="1150" rx="11" fill="none" stroke="#30363d"/>
+  <ns0:text x="28" y="43" font-size="26" class="terminal key">proffitteoy@github:~$</ns0:text>
+  <ns0:text x="1170" y="43" font-size="20" text-anchor="end" class="terminal cc">profile/</ns0:text>
+  <ns0:line x1="28" y1="62" x2="1170" y2="62" stroke="#30363d"/>
+  <ns0:text x="24" y="94" font-size="12.2" class="ascii">
+    <ns0:tspan x="24" y="94.00">                                           ||||hhhhMM|h|||\|</ns0:tspan>
+    <ns0:tspan x="24" y="106.90">                                        ||HHHMMMhhhMMMMHHHMMM\\</ns0:tspan>
+    <ns0:tspan x="24" y="119.80">                                    \ |/GHMMMMMMMMMMMMMMMMHHMMMH\</ns0:tspan>
+    <ns0:tspan x="24" y="132.70">                                  |/||HHGHHHHHHHHHHHHH\GHhhMHHMMH|</ns0:tspan>
+    <ns0:tspan x="24" y="145.60">                                 /||Gh3MGGGGSGGGGGGGGGhHSh5hMHHHHHG\</ns0:tspan>
+    <ns0:tspan x="24" y="158.50">                               |\||#HHHhMShMGGGGSSHSG333HSGGGGGGGGHS|</ns0:tspan>
+    <ns0:tspan x="24" y="171.40">                              |,/|9#####9GMHHhGMMH3SSMGSGS9##SSSSSSGS</ns0:tspan>
+    <ns0:tspan x="24" y="184.30">                            ||/9@B#####99##99##S##G#9#9#9##999#####S#|</ns0:tspan>
+    <ns0:tspan x="24" y="197.20">                           //#@@B#999999###########99######9BSB999####</ns0:tspan>
+    <ns0:tspan x="24" y="210.10">                          /|B#9&amp;9999####SSSSSGGGGGGBSGSSS##9@  SBB999B|</ns0:tspan>
+    <ns0:tspan x="24" y="223.00">                           \S#B9999#SS#9GHMMM\hhMM\\SMHGGGS9#   \&amp;999B|</ns0:tspan>
+    <ns0:tspan x="24" y="235.90">                              |99B#GGSS|\\33\\\53|| -\3\\GGB|    @&amp;BB&amp;#</ns0:tspan>
+    <ns0:tspan x="24" y="248.80">                             /B9B9GH#||||\\||\\||||||\\\\\5\\    \-</ns0:tspan>
+    <ns0:tspan x="24" y="261.70">                            |&amp;B&amp;BSSS||//||\|||\|. |||||\\      |      |</ns0:tspan>
+    <ns0:tspan x="24" y="274.60">                            \9B&amp;&amp;&amp;GM||||BS\|     |\\9#|\|||||||    |#B@|</ns0:tspan>
+    <ns0:tspan x="24" y="287.50">                           |9#9&amp;@9h3h\\\|||\     . \|||||||hMB|    #@B&amp;|</ns0:tspan>
+    <ns0:tspan x="24" y="300.40">                          |SGS9&amp;&amp;Ghhh\ \\||         \\\\|||3H|||/  #&amp;BBB</ns0:tspan>
+    <ns0:tspan x="24" y="313.30">                              #&amp;9HMhh|\     |           |/|/|||#B9#B&amp;BB@|</ns0:tspan>
+    <ns0:tspan x="24" y="326.20">                               |#GHMh/|                 .||#@@h39&amp;&amp;&amp;&amp;BB&amp;|</ns0:tspan>
+    <ns0:tspan x="24" y="339.10">                               ##SGG/55||   |   |     .||r\SSSh3h9&amp;B&amp;BB9B</ns0:tspan>
+    <ns0:tspan x="24" y="352.00">                             |#S#GS#|553h||||      |||srrX\M3hhh3h9&amp;BBB9B|</ns0:tspan>
+    <ns0:tspan x="24" y="364.90">                            |B###S|\3533|MMh|||||||XXX|||B&amp;GM3\hh33\BBBB9B|</ns0:tspan>
+    <ns0:tspan x="24" y="377.80">                           |B999#9|i553\i\|2\|HM|#GS9B@@@&amp;&amp;#MMhMh333M#B999B|</ns0:tspan>
+    <ns0:tspan x="24" y="390.70">                          |B##99#9|:\|2\:;\X\|MhM@@&amp;9@&amp;&amp;&amp;&amp;&amp;BHMhhhh3333\999#9|</ns0:tspan>
+    <ns0:tspan x="24" y="403.60">                         |S#####SS5|;\\\,.-i\||9&amp;@B|\B&amp;&amp;&amp;&amp;&amp;&amp;@##G|Hh35553\#9#9\</ns0:tspan>
+    <ns0:tspan x="24" y="416.50">                         ||#S###S|5||||||\/|||;\\\|S##&amp;&amp;&amp;&amp;&amp;#\@&amp;&amp;B99#SGHh3hHS#B\</ns0:tspan>
+    <ns0:tspan x="24" y="429.40">                        |##GSSSSG||i;|/||SS@@&amp;S##|9B9B&amp;&amp;&amp;&amp;&amp;| \9##9B&amp;B9##SGG|S\9#\</ns0:tspan>
+    <ns0:tspan x="24" y="442.30">                      |G#|\GGSSSG\|||/#9######BBB@@@@B999##/ -\##\\\\||######| H9\|</ns0:tspan>
+    <ns0:tspan x="24" y="455.20">                   |/#G|||5\H\\GH\|||||\S\\\HSSSGSBB9SS###9|||\H|| ||S9#99###9|   |||</ns0:tspan>
+    <ns0:tspan x="24" y="468.10">                  /S|\| \S52|\|B9S#9B99|\|/|||\\HSSS||\|\\\||||||/||#999999999#    \|\</ns0:tspan>
+    <ns0:tspan x="24" y="481.00">                |S|| |   |||/||&amp;&amp;&amp;&amp;9&amp;|\&amp;S&amp;|\|\S\|\||  ||/||||||||\|MSB99999999#      |\\</ns0:tspan>
+    <ns0:tspan x="24" y="493.90">               /9| |       h 2SB#B99| \&amp;###\||99|      \\\\S|/|\|\\S9999999##BS       \\|</ns0:tspan>
+    <ns0:tspan x="24" y="506.80">               B| /         2299B9S\\ |@9#/||S|||            \||@\\\9999B99#S#|3        \#</ns0:tspan>
+    <ns0:tspan x="24" y="519.70">               S\|         5X\BB#\|\  \SB|||S||/|||          |@|\  |SGS9B999&amp;#5          \|</ns0:tspan>
+    <ns0:tspan x="24" y="532.60">                          |2X|B#2||\    |#S&amp;|/S|||        |||B#|| ||32539B9B@\</ns0:tspan>
+    <ns0:tspan x="24" y="545.50">                          |2|BBh||  |  /9BB9B@||9|    ||||  |&amp;| \//h522A\B9B@\</ns0:tspan>
+    <ns0:tspan x="24" y="558.40">                         |\SBB|5|    |\#B99BB9@@#9|/||     |S/| ,|/32222\B9B@S</ns0:tspan>
+    <ns0:tspan x="24" y="571.30">                         ||B9#55|.    |&amp;9BBBB@&amp;9B&amp;S|       |@| ,:||322253BBB&amp;B</ns0:tspan>
+    <ns0:tspan x="24" y="584.20">                        |99#9h523|,,./BBBBB&amp;&amp;#@&amp;BB9|||    ./@|,::/|552253#B9B&amp;\</ns0:tspan>
+    <ns0:tspan x="24" y="597.10">                      /|9##9S|H33G\||@&amp;BBB@9|;\9@&amp;B&amp;B&amp;||;:|&amp;B|:/|B|522253HB99B&amp;|</ns0:tspan>
+    <ns0:tspan x="24" y="610.00">                    /|99###9S9BBB|||&amp;BBB&amp;B|::;:;\9@BB9B&amp;|\|@B//|9#|HHHS#/G#999B&amp;</ns0:tspan>
+    <ns0:tspan x="24" y="622.90">                  ||#9S|GSS####||  |&amp;B&amp;@9|||H|H||\\B&amp;BBB&amp;|.\\9&amp;&amp;#9&amp;B99B||&amp;#9999B&amp;|</ns0:tspan>
+    <ns0:tspan x="24" y="635.80">                ||##S|23S#99SS||  |@B&amp;&amp;SS&amp;@@@@@@@&amp;#SB&amp;&amp;B&amp;|   \\#######9||&amp;#G9999B&amp;|</ns0:tspan>
+    <ns0:tspan x="24" y="648.70">              |GSSS|322G#9#SS||  |B&amp;@&amp;&amp;S&amp;&amp;BBBBB99B@@&amp;&amp;&amp;&amp;&amp;&amp;|   \SSS###9B##B9GS9999B@\</ns0:tspan>
+    <ns0:tspan x="24" y="661.60">            /HSGS||252MG##SS9|| /@@9S&amp;@@&amp;BB9\&amp;BBBBBBB&amp;@&amp;#B@|  \\#SS##S9B99BGH#99999&amp;9\</ns0:tspan>
+    <ns0:tspan x="24" y="674.50">          |/SGGS|22523HH9###S|||B\|||B9#9B\\|||BBBBB99B&amp;S||\|.|\SSSS#####9BGHH#9##99BB|</ns0:tspan>
+    <ns0:tspan x="24" y="687.40">        //|GGS|2A55A5MM9B#S9||||::|S#B#S#9|/||/B9GGHHHS9B#|||\:\\9S#####9B&amp;SHHH#9###99B#\</ns0:tspan>
+    <ns0:tspan x="24" y="700.30">      /|H|HS||AA55A233#&amp;B9S9||;|||&amp;S9@B&amp;&amp;&amp;@||BB@&amp;&amp;&amp;BBB&amp;&amp;&amp;&amp;9#||;\-9#####9BB&amp;9MHMMS9###9999S|</ns0:tspan>
+    <ns0:tspan x="24" y="713.20">     /|||M#|2XA25AA52|BBBB9/||/B&amp;&amp;G#@&amp;BB&amp;B#||@S#&amp;BBBBB&amp;@&amp;@#S&amp;9||\9###9BBBBBBHMMh3S9#######S\|</ns0:tspan>
+    <ns0:tspan x="24" y="726.10">   |/MHH/#|XXAA2AA2A|9B999&amp;||@BB9S9@&amp;&amp;&amp;&amp;B|9|\&amp;BM#&amp;&amp;&amp;&amp;&amp;&amp;&amp;@@&amp;S#9B&amp;|\9#9BBBB9BB#hhM35\9######SGG\</ns0:tspan>
+    <ns0:tspan x="24" y="739.00">  |shHHG/5XXXXAXA2X|99B#9B9|9BB9G9&amp;BBB&amp;9|B#3HBB9\B&amp;BBBB&amp;B&amp;@&amp;\99&amp;|\B9999999B9B\h3h32\9###SSSGHHH|</ns0:tspan>
+    <ns0:tspan x="24" y="751.90"> |r|HMGSAXXXXAs|AXXS99B9#B||@B9GB&amp;BBB&amp;9|9B|5MB9&amp;S|&amp;BBBB&amp;BB&amp;@B\9&amp;|\99B999#9B9B#335352\9SSSSSSGMMH\</ns0:tspan>
+    <ns0:tspan x="24" y="764.80"> |rMMGSXsXXX|||XXs|9#B&amp;|\||BBSHB&amp;BBBBB|9B#hhMB9#&amp;HS&amp;BBBB&amp;BB&amp;@B\#@\\S\S9999999&amp;\52232A\9SSSSGGHMhM\</ns0:tspan>
+    <ns0:tspan x="24" y="777.70">|i|h|#AsXs|| ||As|9#999|||#9HM9&amp;BBBBBH9B#ShM/B9#99MBBBBB&amp;BBB&amp;@&amp;|9#\| |B#99999B952A252A\9SSSGGGMMhMH|</ns0:tspan>
+    <ns0:tspan x="24" y="790.60">|i\/||rX||   |Ass|9##99||##HM#&amp;BB&amp;B&amp;GSB#9SMM/BB#SBSG&amp;BBB&amp;&amp;BBB&amp;@&amp;S9|\|\9999999B&amp;\2AA22AX\9SSGGGHMMhh|</ns0:tspan>
+  </ns0:text>
+  <ns0:text x="844" y="126" font-size="32" class="terminal key">proffitteoy</ns0:text>
+  <ns0:text x="844" y="161" font-size="20" class="terminal cc">|</ns0:text>
+  <ns0:text x="844" y="194" font-size="17" class="terminal cc">|-- Major</ns0:text>
+  <ns0:text x="844" y="226" font-size="21" class="terminal value">金融数学专业本科生</ns0:text>
+  <ns0:text x="844" y="276" font-size="17" class="terminal cc">|-- Goal</ns0:text>
+  <ns0:text x="844" y="308" font-size="21" class="terminal value">应用数学研究生</ns0:text>
+  <ns0:text x="844" y="358" font-size="17" class="terminal cc">|-- Focus</ns0:text>
+  <ns0:text x="844" y="391" font-size="21" class="terminal value">数学建模 · 拓扑数据分析</ns0:text>
+  <ns0:text x="844" y="422" font-size="21" class="terminal value">AI 系统 · 开源工程</ns0:text>
+  <ns0:text x="844" y="472" font-size="17" class="terminal cc">`-- Side</ns0:text>
+  <ns0:text x="844" y="504" font-size="21" class="terminal value">可能还是个二次元？</ns0:text>
+  <ns0:text x="844" y="569" font-size="21" class="terminal key">contact/</ns0:text>
+  <ns0:text x="844" y="605" font-size="17" class="terminal cc">|-- Website</ns0:text>
+  <ns0:text x="844" y="635" font-size="20" class="terminal value">nothing-new.icu</ns0:text>
+  <ns0:text x="844" y="681" font-size="17" class="terminal cc">|-- Email</ns0:text>
+  <ns0:text x="844" y="711" font-size="20" class="terminal value">proffitteoy@gmail.com</ns0:text>
+  <ns0:text x="844" y="757" font-size="17" class="terminal cc">`-- GitHub</ns0:text>
+  <ns0:text x="844" y="787" font-size="20" class="terminal value">proffitteoy</ns0:text>
+  <ns0:line x1="28" y1="838" x2="1170" y2="838" stroke="#30363d"/>
+  <ns0:text x="28" y="878" font-size="21" class="terminal key">languages/</ns0:text>
+  <ns0:text x="28" y="917" font-size="17" class="terminal cc">|-- Languages.Programming</ns0:text>
+  <ns0:text x="64" y="945" font-size="19" class="terminal fg">Python · TypeScript · C++ · Kotlin</ns0:text>
+  <ns0:text x="28" y="981" font-size="17" class="terminal cc">|-- Languages.Computer</ns0:text>
+  <ns0:text x="64" y="1009" font-size="19" class="terminal fg">HTML · CSS · Markdown · LaTeX · YAML</ns0:text>
+  <ns0:text x="28" y="1045" font-size="17" class="terminal cc">`-- Languages.Real</ns0:text>
+  <ns0:text x="64" y="1073" font-size="19" class="terminal fg">中文 · English</ns0:text>
+  <ns0:text x="28" y="1121" font-size="17" class="terminal cc">FriendLink  欢迎参观 · 欢迎提友链</ns0:text>
+  <ns0:text x="756" y="878" font-size="21" class="terminal key">GitHub Stats</ns0:text>
+  <ns0:text x="756" y="922" font-size="15" class="terminal cc">Repos</ns0:text>
+  <ns0:text x="923" y="922" font-size="19" text-anchor="end" id="repo_data" class="terminal fg">33</ns0:text>
+  <ns0:text x="756" y="922" font-size="15" id="repo_data_dots" class="terminal dots"> ........................................ </ns0:text>
+  <ns0:text x="964" y="922" font-size="15" class="terminal cc">Stars</ns0:text>
+  <ns0:text x="1170" y="922" font-size="19" text-anchor="end" id="star_data" class="terminal fg">72</ns0:text>
+  <ns0:text x="964" y="922" font-size="15" id="star_data_dots" class="terminal dots"> ........................................ </ns0:text>
+  <ns0:text x="756" y="962" font-size="15" class="terminal cc">Contributed</ns0:text>
+  <ns0:text x="923" y="962" font-size="19" text-anchor="end" id="contrib_data" class="terminal fg">51</ns0:text>
+  <ns0:text x="756" y="962" font-size="15" id="contrib_data_dots" class="terminal dots"> ................................. </ns0:text>
+  <ns0:text x="964" y="962" font-size="15" class="terminal cc">Commits</ns0:text>
+  <ns0:text x="1170" y="962" font-size="19" text-anchor="end" id="commit_data" class="terminal fg">1,394</ns0:text>
+  <ns0:text x="964" y="962" font-size="15" id="commit_data_dots" class="terminal dots"> ................................... </ns0:text>
+  <ns0:text x="756" y="1002" font-size="15" class="terminal cc">Followers</ns0:text>
+  <ns0:text x="923" y="1002" font-size="19" text-anchor="end" id="follower_data" class="terminal fg">64</ns0:text>
+  <ns0:text x="756" y="1002" font-size="15" id="follower_data_dots" class="terminal dots"> .................................... </ns0:text>
+  <ns0:text x="756" y="1052" font-size="15" class="terminal cc">Lines of Code on GitHub</ns0:text>
+  <ns0:text x="1170" y="1052" font-size="19" text-anchor="end" id="loc_data" class="terminal fg">15,431,606</ns0:text>
+  <ns0:text x="756" y="1052" font-size="15" id="loc_data_dots" class="terminal dots"> ............. </ns0:text>
+  <ns0:text x="1170" y="1090" font-size="16" text-anchor="end" class="terminal cc">
+    <ns0:tspan class="cc">( </ns0:tspan>
+    <ns0:tspan class="addColor" id="loc_add">21,935,549</ns0:tspan>
+    <ns0:tspan class="cc">++ / </ns0:tspan>
+    <ns0:tspan class="delColor" id="loc_del">6,503,943</ns0:tspan>
+    <ns0:tspan class="cc">-- )</ns0:tspan>
+  </ns0:text>
+</ns0:svg>
