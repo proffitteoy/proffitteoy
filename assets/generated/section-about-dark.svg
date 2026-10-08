@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
   <title id="title">01 · cat ./about.md</title>
-  <desc id="desc">逐字输入简介命令后，光标结束等待，命令作为终端历史保留；下一条由读者手动触发。</desc>
+  <desc id="desc">The about command is typed character by character and remains in the terminal history when the cursor stops waiting; the reader triggers the next command manually.</desc>
   <style>
     @keyframes type-command {
       from { width: 0; }

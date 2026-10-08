@@ -1,11 +1,11 @@
 <a href="https://nothing-new.icu/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/dark_mode.svg?v=3454697-restore">
-    <img src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/light_mode.svg?v=3454697-restore" alt="proffitteoy 终端风格个人简介" width="100%">
+    <img src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/light_mode.svg?v=3454697-restore" alt="proffitteoy terminal-style profile" width="100%">
   </picture>
 </a>
 
-<sub>点击命令或聚焦后按 Enter / 空格查看输出。</sub>
+<sub>Click a command, or focus it and press Enter / Space to view its output.</sub>
 
 <details>
 <summary>
@@ -17,17 +17,17 @@
 
 ## Hi, I'm Xuanliang Li 👋
 
-我是一名数学专业大三的本科生，专注于数据科学和机器学习工程。拥有超过 5 年的编程经验。我喜欢将复杂的问题拆解成简单的数学模型并编写成可解释的程序解决方案。我坚信开源社区，并积极参与开源生态系统的发展。
+I'm a third-year mathematics undergraduate focused on data science and machine learning engineering, with over five years of programming experience. I enjoy breaking complex problems down into simple mathematical models and turning them into interpretable software solutions. I believe in the open-source community and actively contribute to its development.
 
 > [!NOTE]
-> 欢迎交流数学、TDA、AI 和开源项目，也欢迎来[我的博客](https://nothing-new.icu/)看看或交换友链。可以通过 [Email](mailto:proffitteoy@gmail.com) 联系我。
+> Feel free to reach out about mathematics, TDA, AI, or open-source projects. You're also welcome to visit [my blog](https://nothing-new.icu/) or exchange blog links. You can contact me by [email](mailto:proffitteoy@gmail.com).
 
 ### 👺 About Me
 
-- 我专注于机器学习问题，如预测、异常检测、分类，这些应用涵盖开源环境。
-- 我领导本校的人工智能和量化投资组织，重点关注学术平台构建。
-- 目前专注于拓扑数据分析，拥有几篇纯数学/应用数学/计算机科学方面的论文。
-- 是一系列拓扑数据分析算法库的作者/合作者。
+- I work on machine learning problems such as prediction, anomaly detection, and classification in open-source projects.
+- I lead my university's AI and quantitative investment organizations, with a focus on building academic platforms.
+- My current focus is topological data analysis, with several papers in pure mathematics, applied mathematics, and computer science.
+- I author and collaborate on a range of topological data analysis libraries.
 
 <details>
 <summary>
@@ -41,33 +41,33 @@
 <tr>
 <td width="25%" valign="top">
 
-<sub>RESEARCH · 论文在投</sub><br/>
+<sub>RESEARCH · PAPER SUBMITTED</sub><br/>
 <a href="https://github.com/proffitteoy/early-rumor-propagation-tda"><strong>early-rumor-propagation-tda</strong></a><br/>
-早期谣言传播树的拓扑特征构造与持续同调分析。<br/><br/><br/>
+Topological feature construction and persistent homology analysis of early rumor propagation trees.<br/><br/><br/>
 <code>TDA</code> <code>Research</code>
 
 </td>
 <td width="25%" valign="top">
 
-<sub>RESEARCH · 论文在写</sub><br/>
+<sub>RESEARCH · MANUSCRIPT IN PROGRESS</sub><br/>
 <a href="https://github.com/proffitteoy/anime-avatar-runtime"><strong>anime-avatar-runtime</strong></a><br/>
-二次元角色的持续生成、状态保持与异常恢复研究。<br/><br/><br/>
+Research on continuous generation, state persistence, and failure recovery for anime characters.<br/><br/><br/>
 <code>Python</code> <code>Video Generation</code>
 
 </td>
 <td width="25%" valign="top">
 
-<sub>RESEARCH · 论文在写</sub><br/>
-<a href="https://github.com/proffitteoy/homology-operator"><strong>homology-operator</strong></a>（下游）<br/>
-<a href="https://github.com/proffitteoy/homology-operator-lab"><strong>homology-operator-lab</strong></a>（上游）<br/>
-边界矩阵驱动的同调算子，联合读取持续同调与几何信息。<br/><br/>
+<sub>RESEARCH · MANUSCRIPT IN PROGRESS</sub><br/>
+<a href="https://github.com/proffitteoy/homology-operator"><strong>homology-operator</strong></a> (downstream)<br/>
+<a href="https://github.com/proffitteoy/homology-operator-lab"><strong>homology-operator-lab</strong></a> (upstream)<br/>
+Boundary-matrix-driven homology operators combining persistent homology and geometric information.<br/><br/>
 <code>TDA</code> <code>F₂ Homology</code>
 </td>
 <td width="25%" valign="top">
 
-<sub>RESEARCH · 送论文外审</sub><br/>
+<sub>RESEARCH · UNDER EXTERNAL REVIEW</sub><br/>
 <a href="https://github.com/proffitteoy/Topp"><strong>topp</strong></a><br/>
-拓扑数据分析的高速高性能 bottlenek/wasserstein 计算Python 库。<br/><br/>
+A high-performance Python library for computing bottleneck and Wasserstein distances in topological data analysis.<br/><br/>
 <code>TDA</code> <code>Python</code> <code>Exact Matching</code>
 
 </td>
@@ -77,20 +77,20 @@
 
 <sub>OPEN SOURCE CONTRIBUTION</sub><br/>
 <a href="https://github.com/open-ani/animeko"><strong>open-ani/animeko</strong></a><br/>
-基于 CNN 的验证码识别算法开发。<br/><br/>
+Development of CNN-based CAPTCHA recognition algorithms.<br/><br/>
 <code>Kotlin Multiplatform</code> <code>Android</code>
 
 </td>
 <td width="50%" colspan="2" valign="middle" align="center">
 
-<img src="./assets/generated/profile-studio.png" alt="proffitteoy 个人主页主视觉" width="100%" />
+<img src="./assets/generated/profile-studio.png" alt="proffitteoy profile artwork" width="100%" />
 
 </td>
 <td width="25%" valign="top">
 
 <sub>OPEN SOURCE CONTRIBUTION</sub><br/>
 <a href="https://github.com/GUDHI/gudhi-devel"><strong>GUDHI/gudhi-devel</strong></a><br/>
-核心数学算法的正确性漏洞修复与跨平台验证。<br/><br/>
+Correctness fixes and cross-platform validation for core mathematical algorithms.<br/><br/>
 <code>C++</code> <code>Bottleneck Distance</code> <code>Python</code>
 
 </td>
@@ -100,7 +100,7 @@
 
 <sub>AI WORKBENCH</sub><br/>
 <a href="https://github.com/proffitteoy/Iris-Terminal"><strong>Iris-Terminal</strong></a><br/>
-本地优先 AI4MATH 工作台。<br/><br/><br/><br/>
+A local-first AI4MATH workbench.<br/><br/><br/><br/>
 <code>Local-first</code> <code>Research Workspace</code>
 
 </td>
@@ -108,7 +108,7 @@
 
 <sub>CAMPUS COMPETITION UI</sub><br/>
 <a href="https://github.com/GDUF-quantitative/ai-data-competitions-ui"><strong>ai-data-competitions-ui</strong></a><br/>
-面向学生竞赛的学院级服务网站。<br/><br/><br/><br/>
+A college-level service website for student competitions.<br/><br/><br/><br/>
 <code>Next.js</code> <code>React</code>
 
 </td>
@@ -116,7 +116,7 @@
 
 <sub>TDA LIBRARY</sub><br/>
 <a href="https://github.com/Aequiludium/cocycle-rs"><strong>cocycle-rs</strong></a><br/>
-纯 Rust 拓扑数据分析库，支持持续同调与持久图距离。<br/><br/><br/>
+A pure Rust library for topological data analysis, supporting persistent homology and persistence diagram distances.<br/><br/><br/>
 <code>Rust</code> <code>TDA</code> <code>Persistence</code>
 
 </td>
@@ -124,7 +124,7 @@
 
 <sub>WRITING RESEARCH</sub><br/>
 <a href="https://github.com/proffitteoy/Mathematician-Humanizer"><strong>style-compiler</strong></a><br/>
-面向数学工作者的去ai味skill。<br/><br/>
+A skill for mathematicians to make AI-generated writing sound more natural.<br/><br/>
 <code>Python</code> <code>Style Modeling</code>
 
 </td>

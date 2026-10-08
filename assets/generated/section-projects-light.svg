@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
   <title id="title">02 · ls ./projects/</title>
-  <desc id="desc">待执行的项目命令；光标闪烁等待点击或回车，不自动输入。</desc>
+  <desc id="desc">The projects command is ready to run; the cursor blinks while waiting for a click or Enter, with no automatic typing.</desc>
   <style>
     @keyframes wait-cursor {
       0%, 49% { opacity: 1; }

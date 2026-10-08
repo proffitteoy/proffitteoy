@@ -39,7 +39,7 @@ jobs:
           clean = textwrap.dedent(f'''\
           <svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
             <title id="title">proffitteoy profile cover</title>
-            <desc id="desc">个人主页主视觉原图，无文字覆盖、无模糊、无额外装饰。</desc>
+            <desc id="desc">Original profile artwork, with no text overlays, blur, or additional decorations.</desc>
             <defs>
               <clipPath id="coverClip"><rect width="1280" height="720" rx="24"/></clipPath>
             </defs>

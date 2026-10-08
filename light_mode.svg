@@ -74,22 +74,22 @@ text,tspan{white-space:pre}
 </text>
 <text class="terminal fg" x="720" y="28" font-size="15.4">
 <tspan x="720" y="28" class="key">proffitteoy@github</tspan><tspan class="cc"> ─────────────────────────</tspan>
-<tspan x="720" y="54" class="cc">. </tspan><tspan class="key">Major</tspan><tspan class="cc"> .......................... </tspan><tspan x="1180" text-anchor="end" class="value">金融数学专业本科生</tspan>
-<tspan x="720" y="78" class="cc">. </tspan><tspan class="key">Goal</tspan><tspan class="cc"> .............................. </tspan><tspan x="1180" text-anchor="end" class="value">应用数学研究生</tspan>
-<tspan x="720" y="102" class="cc">. </tspan><tspan class="key">Focus</tspan><tspan class="cc"> ..................... </tspan><tspan x="1180" text-anchor="end" class="value">数学建模 · 拓扑数据分析</tspan>
-<tspan x="720" y="126" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">AI 系统 · 开源工程</tspan>
-<tspan x="720" y="150" class="cc">. </tspan><tspan class="key">Side</tspan><tspan class="cc"> ........................... </tspan><tspan x="1180" text-anchor="end" class="value">可能还是个二次元？</tspan>
+<tspan x="720" y="54" class="cc">. </tspan><tspan class="key">Major</tspan><tspan class="cc"> ....... </tspan><tspan x="1180" text-anchor="end" class="value">Financial Mathematics undergrad</tspan>
+<tspan x="720" y="78" class="cc">. </tspan><tspan class="key">Goal</tspan><tspan class="cc"> ......... </tspan><tspan x="1180" text-anchor="end" class="value">Graduate study in Applied Math</tspan>
+<tspan x="720" y="102" class="cc">. </tspan><tspan class="key">Focus</tspan><tspan class="cc"> ........... </tspan><tspan x="1180" text-anchor="end" class="value">Mathematical Modeling · TDA</tspan>
+<tspan x="720" y="126" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">AI Systems · Open Source Engineering</tspan>
+<tspan x="720" y="150" class="cc">. </tspan><tspan class="key">Side</tspan><tspan class="cc"> .................... </tspan><tspan x="1180" text-anchor="end" class="value">Maybe an anime fan?</tspan>
 <tspan x="720" y="188" class="key">- Languages</tspan><tspan class="cc"> ───────────────────────────</tspan>
 <tspan x="720" y="212" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>
 <tspan x="720" y="236" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">Python · TypeScript · C++ · Kotlin</tspan>
 <tspan x="720" y="260" class="cc">. </tspan><tspan class="key">Languages.Computer</tspan>
 <tspan x="720" y="284" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">HTML · CSS · Markdown · LaTeX · YAML</tspan>
-<tspan x="720" y="308" class="cc">. </tspan><tspan class="key">Languages.Real</tspan><tspan class="cc"> .................. </tspan><tspan x="1180" text-anchor="end" class="value">中文 · English</tspan>
+<tspan x="720" y="308" class="cc">. </tspan><tspan class="key">Languages.Real</tspan><tspan class="cc"> ............ </tspan><tspan x="1180" text-anchor="end" class="value">Chinese · English</tspan>
 <tspan x="720" y="346" class="key">- Contact</tspan><tspan class="cc"> ─────────────────────────────</tspan>
 <tspan x="720" y="370" class="cc">. </tspan><tspan class="key">Website</tspan><tspan class="cc"> ........................ </tspan><tspan x="1180" text-anchor="end" class="value">nothing-new.icu</tspan>
 <tspan x="720" y="394" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc"> .................... </tspan><tspan x="1180" text-anchor="end" class="value">proffitteoy@gmail.com</tspan>
 <tspan x="720" y="418" class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc"> ............................. </tspan><tspan x="1180" text-anchor="end" class="value">proffitteoy</tspan>
-<tspan x="720" y="442" class="cc">. </tspan><tspan class="key">FriendLink</tspan><tspan class="cc"> .................. </tspan><tspan x="1180" text-anchor="end" class="value">欢迎参观 · 欢迎提友链</tspan>
+<tspan x="720" y="442" class="cc">. </tspan><tspan class="key">FriendLink</tspan><tspan class="cc"> .. </tspan><tspan x="1180" text-anchor="end" class="value">Visits &amp; link exchanges welcome</tspan>
 <tspan x="720" y="480" class="key">- GitHub Stats</tspan><tspan class="cc"> ─────────────────────────</tspan>
 <tspan x="720" y="504" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc" id="repo_data_dots"> ........................................ </tspan><tspan x="1180" text-anchor="end" class="value" id="repo_data">33</tspan>
 <tspan x="720" y="526" class="cc">. </tspan><tspan class="key">Contributed</tspan><tspan class="cc" id="contrib_data_dots"> ................................. </tspan><tspan x="1180" text-anchor="end" class="value" id="contrib_data">51</tspan>
