@@ -5,13 +5,11 @@
   </picture>
 </a>
 
-<sub>Click a command, or focus it and press Enter / Space to view its output.</sub>
-
 <details>
 <summary>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-about-dark.svg?v=3454697-restore">
-  <img src="./assets/generated/section-about-light.svg?v=3454697-restore" alt="01 · cat ./about.md" width="94%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-about-dark.svg?v=tip-below">
+  <img src="./assets/generated/section-about-light.svg?v=tip-below" alt="01 · cat ./about.md — click or press Enter / Space to toggle output" width="94%">
 </picture>
 </summary>
 
@@ -32,8 +30,8 @@ I'm a third-year mathematics undergraduate focused on data science and machine l
 <details>
 <summary>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-projects-dark.svg?v=3454697-restore">
-  <img src="./assets/generated/section-projects-light.svg?v=3454697-restore" alt="02 · ls ./projects/" width="94%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/section-projects-dark.svg?v=tip-below">
+  <img src="./assets/generated/section-projects-light.svg?v=tip-below" alt="02 · ls ./projects/ — click or press Enter / Space to toggle output" width="94%">
 </picture>
 </summary>
 
@@ -133,5 +131,10 @@ A skill for mathematicians to make AI-generated writing sound more natural.<br/>
 
 </details>
 </details>
+
+> [!TIP]
+> **Click a command to reveal its output.**
+>
+> Start with **`cat ./about.md`** above. Keyboard: <kbd>Tab</kbd> to focus, then <kbd>Enter</kbd> / <kbd>Space</kbd> to toggle.
 
 <br/>

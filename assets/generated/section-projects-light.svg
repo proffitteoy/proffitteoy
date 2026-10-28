@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
   <title id="title">02 · ls ./projects/</title>
-  <desc id="desc">The projects command is ready to run; the cursor blinks while waiting for a click or Enter, with no automatic typing.</desc>
+  <desc id="desc">Click this command, or focus it and press Enter or Space, to toggle the projects output. The command is ready to run with a blinking cursor.</desc>
   <style>
     @keyframes wait-cursor {
       0%, 49% { opacity: 1; }

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
   <title id="title">01 · cat ./about.md</title>
-  <desc id="desc">The about command is typed character by character and remains in the terminal history when the cursor stops waiting; the reader triggers the next command manually.</desc>
+  <desc id="desc">Click this command, or focus it and press Enter or Space, to toggle the about output. The command types automatically, but its output opens only on activation.</desc>
   <style>
     @keyframes type-command {
       from { width: 0; }
