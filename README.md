@@ -1,4 +1,4 @@
-<a href="https://nothing-new.icu/">
+<a href="https://nothing-new.cn/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/dark_mode.svg?v=3454697-restore">
     <img src="https://raw.githubusercontent.com/proffitteoy/proffitteoy/main/light_mode.svg?v=3454697-restore" alt="proffitteoy terminal-style profile" width="100%">
@@ -18,7 +18,7 @@
 I'm a third-year mathematics undergraduate focused on data science and machine learning engineering, with over five years of programming experience. I enjoy breaking complex problems down into simple mathematical models and turning them into interpretable software solutions. I believe in the open-source community and actively contribute to its development.
 
 > [!NOTE]
-> Feel free to reach out about mathematics, TDA, AI, or open-source projects. You're also welcome to visit [my blog](https://nothing-new.icu/) or exchange blog links. You can contact me by [email](mailto:proffitteoy@gmail.com).
+> Feel free to reach out about mathematics, TDA, AI, or open-source projects. You're also welcome to visit [my blog](https://nothing-new.cn/) or exchange blog links. You can contact me by [email](mailto:proffitteoy@gmail.com).
 
 ### 👺 About Me
 
