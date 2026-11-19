@@ -27,7 +27,7 @@ I'm a third-year mathematics undergraduate focused on data science and machine l
 
 <sub>RESEARCH · PAPER SUBMITTED</sub><br/>
 <a href="https://github.com/proffitteoy/early-rumor-propagation-tda"><strong>early-rumor-propagation-tda</strong></a><br/>
-Topological feature construction and persistent homology analysis of early rumor propagation trees.<br/><br/><br/>
+Topological feature construction and persistent homology analysis of early rumor propagation trees.<br/><br/>
 <code>TDA</code> <code>Research</code>
 
 </td>
@@ -35,15 +35,14 @@ Topological feature construction and persistent homology analysis of early rumor
 
 <sub>RESEARCH · ARCHIVED</sub><br/>
 <a href="https://github.com/proffitteoy/anime-avatar-runtime"><strong>anime-avatar-runtime</strong></a><br/>
-Research on continuous generation, state persistence, and failure recovery for anime characters.<br/><br/><br/>
+Research on continuous generation, state persistence, and failure recovery for anime characters.<br/><br/>
 <code>Python</code> <code>Video Generation</code>
 
 </td>
 <td width="25%" valign="top">
 
 <sub>RESEARCH · MANUSCRIPT IN PROGRESS</sub><br/>
-<a href="https://github.com/proffitteoy/homology-operator"><strong>homology-operator</strong></a> (downstream)<br/>
-<strong>homology-operator-lab</strong> (upstream)<br/>
+<a href="https://github.com/proffitteoy/homology-operator"><strong>homology-operator</strong></a> / <strong>homology-operator-lab</strong><br/>
 Boundary-matrix-driven homology operators combining persistent homology and geometric information.<br/><br/>
 <code>TDA</code> <code>F₂ Homology</code>
 </td>
@@ -84,7 +83,7 @@ Correctness fixes and cross-platform validation for core mathematical algorithms
 
 <sub>AI WORKBENCH</sub><br/>
 <a href="https://github.com/proffitteoy/Iris-Terminal"><strong>Iris-Terminal</strong></a><br/>
-A local-first AI4MATH workbench.<br/><br/><br/><br/>
+A local-first AI4MATH workbench.<br/><br/>
 <code>Local-first</code> <code>Research Workspace</code>
 
 </td>
@@ -92,7 +91,7 @@ A local-first AI4MATH workbench.<br/><br/><br/><br/>
 
 <sub>CAMPUS COMPETITION UI</sub><br/>
 <a href="https://github.com/gduf-community/ai-data-competitions-ui"><strong>ai-data-competitions-ui</strong></a><br/>
-A college-level service website for student competitions.<br/><br/><br/><br/>
+A college-level service website for student competitions.<br/><br/>
 <code>Next.js</code> <code>React</code>
 
 </td>
@@ -100,7 +99,7 @@ A college-level service website for student competitions.<br/><br/><br/><br/>
 
 <sub>TDA LIBRARY</sub><br/>
 <a href="https://github.com/Aequiludium/cocycle-rs"><strong>cocycle-rs</strong></a><br/>
-A pure Rust library for topological data analysis, supporting persistent homology and persistence diagram distances.<br/><br/><br/>
+A pure Rust library for topological data analysis, supporting persistent homology and persistence diagram distances.<br/><br/>
 <code>Rust</code> <code>TDA</code> <code>Persistence</code>
 
 </td>
