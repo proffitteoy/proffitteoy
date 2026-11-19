@@ -81,15 +81,14 @@ text,tspan{white-space:pre}
 <tspan x="720" y="150" class="cc">. </tspan><tspan class="key">Side</tspan><tspan class="cc"> .................... </tspan><tspan x="1180" text-anchor="end" class="value">Maybe an anime fan?</tspan>
 <tspan x="720" y="188" class="key">- Languages</tspan><tspan class="cc"> ───────────────────────────</tspan>
 <tspan x="720" y="212" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>
-<tspan x="720" y="236" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">Python · TypeScript · C++ · Kotlin</tspan>
-<tspan x="720" y="260" class="cc">. </tspan><tspan class="key">Languages.Computer</tspan>
-<tspan x="720" y="284" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">HTML · CSS · Markdown · LaTeX · YAML</tspan>
-<tspan x="720" y="308" class="cc">. </tspan><tspan class="key">Languages.Real</tspan><tspan class="cc"> ............ </tspan><tspan x="1180" text-anchor="end" class="value">Chinese · English</tspan>
-<tspan x="720" y="346" class="key">- Contact</tspan><tspan class="cc"> ─────────────────────────────</tspan>
-<tspan x="720" y="370" class="cc">. </tspan><tspan class="key">Website</tspan><tspan class="cc"> ........................ </tspan><tspan x="1180" text-anchor="end" class="value">nothing-new.cn</tspan>
-<tspan x="720" y="394" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc"> .................... </tspan><tspan x="1180" text-anchor="end" class="value">proffitteoy@gmail.com</tspan>
-<tspan x="720" y="418" class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc"> ............................. </tspan><tspan x="1180" text-anchor="end" class="value">proffitteoy</tspan>
-<tspan x="720" y="442" class="cc">. </tspan><tspan class="key">FriendLink</tspan><tspan class="cc"> .. </tspan><tspan x="1180" text-anchor="end" class="value">Visits &amp; link exchanges welcome</tspan>
+<tspan x="720" y="236" class="cc">. </tspan><tspan x="1180" text-anchor="end" class="value">Python · TypeScript · C++ · LaTeX</tspan>
+<tspan x="720" y="260" class="cc">. </tspan><tspan class="key">Languages.Real</tspan><tspan class="cc"> ............ </tspan><tspan x="1180" text-anchor="end" class="value">Chinese · English</tspan>
+<tspan x="720" y="310" class="key">- Contact</tspan><tspan class="cc"> ─────────────────────────────</tspan>
+<tspan x="720" y="334" class="cc">. </tspan><tspan class="key">Website</tspan><tspan class="cc"> ........................ </tspan><tspan x="1180" text-anchor="end" class="value">nothing-new.cn</tspan>
+<tspan x="720" y="358" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc"> .................... </tspan><tspan x="1180" text-anchor="end" class="value">proffitteoy@gmail.com</tspan>
+<tspan x="720" y="382" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc"> .................... </tspan><tspan x="1180" text-anchor="end" class="value">84025375@qq.com</tspan>
+<tspan x="720" y="406" class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc"> ............................. </tspan><tspan x="1180" text-anchor="end" class="value">proffitteoy</tspan>
+<tspan x="720" y="430" class="cc">. </tspan><tspan class="key">FriendLink</tspan><tspan class="cc"> .. </tspan><tspan x="1180" text-anchor="end" class="value">Visits &amp; link exchanges welcome</tspan>
 <tspan x="720" y="480" class="key">- GitHub Stats</tspan><tspan class="cc"> ─────────────────────────</tspan>
 <tspan x="720" y="504" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc" id="repo_data_dots"> ........................................ </tspan><tspan x="1180" text-anchor="end" class="value" id="repo_data">34</tspan>
 <tspan x="720" y="526" class="cc">. </tspan><tspan class="key">Contributed</tspan><tspan class="cc" id="contrib_data_dots"> ................................. </tspan><tspan x="1180" text-anchor="end" class="value" id="contrib_data">54</tspan>
